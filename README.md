@@ -1,4 +1,4 @@
-## Applied Data Science Project (01TXXXSM)
+## Applied Data Science Project (01TXXSM)
 
 The course is offered in the first semester of the 2nd year at Politecnico di Torino, Data Science and Engineering. The course is in English. 
 
