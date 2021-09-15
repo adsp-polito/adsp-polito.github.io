@@ -48,3 +48,9 @@ Laboratory activities will expose students with first-hand experience in project
 
 ### Course structure 
 The course includes practices on the lecture topics, laboratory sessions for the execution of the projects, and meetups with the company key resources (project managers and project leaders) to successfully execute the assigned projects.
+
+### Team
+Giuseppe Rizzo (owner of the course, prof), Marco Torchiano (prof), Alberto Benincasa, Luca Colomba, Salvatore Greco (teaching assistants)
+
+### Contacts
+For any question, feel you free to drop an email to <giuseppe.rizzo@linksfoundation.com>
