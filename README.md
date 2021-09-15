@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+## Applied Data Science Project
 
-You can use the [editor on GitHub](https://github.com/adsp-polito/adsp-polito.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+The course is offered in the first semester of the 2nd year at Politecnico di Torino, Data Science and Engineering. The course is in English. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The course covers the main pillars of executing a successful data science project ranging from the computational and management aspects to the communication one.
+The goal of this course is to let students face, for the first time, a long running project and learn how to manage all project steps (problem specification, task assignment, design and implementation of the solution, testing, milestones management, writing of intermediate and final reports, result communication).
+Laboratory activities will expose students with first-hand experience in projects that use massively data science methodologies in collaboration with companies and applied research institutes with an international breadth.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Topics
 
-```markdown
-Syntax highlighted code block
+- Introduction
+- Model and Data-centric projects
+- Foundation models
+- Sustainable development goals and data science examples
+- Data Science project pillars:
+  - Design 
+  - Develop
+  - Manage
+  - Communicate
+- 10 Practical tips
+- Agile and Scrum methodologies
+- Collaborative and interactive project design
+- Collaborative and interactive project development
+  - Google Colab setup and use
+  - Github setup and use
+- Collaborative project management
+  - Asana setup and use 
+- How to preparing clear slides to present the project
+- How to write a technical report 
+- Project champions
+- Project proposals
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### Expected Learning Outcomes 
+- Knowledge of first-hand computational tools to address Data Science projects  
+- Knowledge of management strategies and tools
+- Knowledge of communication tools and skills
+- Knowledge of the best-practices for value-oriented project setup and execution
+- Hands on experience with a real data science project offered by companies or research institutes
 
-1. Numbered
-2. List
+### Pre-requirements 
+- Statistics
+- Data mining
+- Machine learning and Deep learning 
+- Python language
+- Relational, NOSQL, graph databases
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/adsp-polito/adsp-polito.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Course structure 
+The course includes practices on the lecture topics, laboratory sessions for the execution of the projects, and meetups with the company key resources (project managers and project leaders) to successfully execute the assigned projects.
