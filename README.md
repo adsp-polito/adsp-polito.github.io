@@ -18,7 +18,7 @@ Laboratory activities will expose students with first-hand experience in project
   - Develop
   - Manage
   - Communicate
-- 10 Practical tips
+- 10 Practical tips [[slides](https://adsp-polito.github.io/L6%20-%20ADSP%20-%2010%20practical%20tips.pdf)]
 - Agile and Scrum methodologies
 - Collaborative and interactive project design
 - Collaborative and interactive project development
