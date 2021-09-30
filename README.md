@@ -11,9 +11,9 @@ Laboratory activities will expose students with first-hand experience in project
 
 - Introduction [[slides](https://adsp-polito.github.io/L1%20-%20ADSP%20-%20Intro.pdf)]
 - Model and Data-centric projects [[slides](https://adsp-polito.github.io/L2%20-%20ADSP%20-%20Model%20&%20Data%20centric.pdf)]
-- Foundation models
-- Sustainable development goals and data science examples
-- Data Science project pillars:
+- Foundation models [[slides](https://adsp-polito.github.io/L3%20-%20ADSP%20-%20Foundation%20models.pdf)]
+- Sustainable development goals and data science examples [[slides](https://adsp-polito.github.io/L4%20-%20ADSP%20-%20SGDs%20and%20data%20science%20project%20examples.pdf)]
+- Data Science project pillars [[slides](https://adsp-polito.github.io/L5%20-%20ADSP%20-%20Pillars.pdf)] 
   - Design 
   - Develop
   - Manage
