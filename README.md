@@ -22,7 +22,7 @@ Laboratory activities will expose students with first-hand experience in project
 - Data Science project tools
   - Project design tools [[slides](https://adsp-polito.github.io/L7%20-%20ADSP%20-%20Project%20design%20tools.pdf)]
   - Project management tools 
-  - Project develipment tools 
+  - Project development tools 
   - Project communication tools
 - Project champions
 - Project proposals
