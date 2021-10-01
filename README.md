@@ -19,15 +19,11 @@ Laboratory activities will expose students with first-hand experience in project
   - Manage
   - Communicate
 - 10 Practical tips [[slides](https://adsp-polito.github.io/L6%20-%20ADSP%20-%2010%20practical%20tips.pdf)]
-- Agile and Scrum methodologies
-- Collaborative and interactive project design
-- Collaborative and interactive project development
-  - Google Colab setup and use
-  - Github setup and use
-- Collaborative project management
-  - Asana setup and use 
-- How to preparing clear slides to present the project
-- How to write a technical report 
+- Data Science project tools
+  - Project design tools [[slides](https://adsp-polito.github.io/L7%20-%20ADSP%20-%20Project%20design%20tools.pdf)]
+  - Project management tools 
+  - Project develipment tools 
+  - Project communication tools
 - Project champions
 - Project proposals
 
