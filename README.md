@@ -20,11 +20,20 @@ Laboratory activities will expose students with first-hand experience in project
   - Communicate
 - 10 Practical tips [[slides](https://adsp-polito.github.io/L6%20-%20ADSP%20-%2010%20practical%20tips.pdf)]
 - Data Science project tools
-  - Project design tools [[slides](https://adsp-polito.github.io/L7%20-%20ADSP%20-%20Project%20design%20tools.pdf)]
-  - Project management tools 
+  - Project design tools
+    - Persona canvas and functional diagram [[slides](https://adsp-polito.github.io/L7%20-%20ADSP%20-%20Project%20design%20tools.pdf)]
+    - Agile [[slides](https://adsp-polito.github.io/L8%20-%20ADSP%20-%20AgileSwDev.pdf)]
+    - Scrum [[slides](https://adsp-polito.github.io/L10%20-%20ADSP%20-%20Scrum.pdf)] and [[example](https://adsp-polito.github.io/OfficeQueueManagement.pdf)]   
+  - Project management tools [[slides](https://adsp-polito.github.io/L9%20-%20ADSP%20-%20Project%20management%20tools.pdf)]
   - Project development tools 
+    - Program development [[slides](https://adsp-polito.github.io/L11%20-%20ADSP%20-%20Project%20development%20tools%20I.pdf)] and [[example](Simple%20Sentiment%20Analysis.ipynb)] 
+    - Version control [[slides](https://adsp-polito.github.io/L12%20-%20ADSP%20-%20Project%20development%20tools%20II.pdf)]
+    - Internal dev communication [[slides](https://adsp-polito.github.io/L13%20-%20ADSP%20-%20Project%20development%20tools%20III.pdf)]
   - Project communication tools
-- Project champions
+    - Presentation [[slides](https://adsp-polito.github.io/L16%20-%20ADSP%20-%20Project%20communication%20tools%20I.pdf)]
+    - Paper [[slides](https://adsp-polito.github.io/L17%20-%20ADSP%20-%20Project%20communication%20tools%20II.pdf)]
+    - Deliverable [[slides](https://adsp-polito.github.io/L18%20-%20ADSP%20-%20Project%20communication%20tools%20III.pdf)]
+- Success stories
 - Project proposals
 
 
