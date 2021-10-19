@@ -35,9 +35,9 @@ Laboratory activities will expose students with first-hand experience in project
     - Deliverable [[slides](https://adsp-polito.github.io/L18%20-%20ADSP%20-%20Project%20communication%20tools%20III.pdf)]
 - Success stories [[slides](https://adsp-polito.github.io/L19%20-%20ADSP%20-%20Success%20stories.pdf)]
 - Project proposals [[slides](https://adsp-polito.github.io/L20%20-%20ADSP%20-%20Project%20proposals.pdf)]
-    - Privacy Preserving Health Insurance Cross-sell Prediction: [[slides](https://adsp-polito.github.io/Accenture%20Labs%20_ADSP.pdf)]
-    - Job Skill Recommendation, proposed by INDA [[slides](https://adsp-polito.github.io/INDA_ADSP.pdf)]
-    - Music Emotion Recognition, proposed by LINKS Foundation [[slides of the project proposal](https://adsp-polito.github.io/LINKS_ADSP.pdf)] 
+    - Privacy Preserving Health Insurance Cross-sell Prediction: [[project proposal](https://adsp-polito.github.io/Accenture%20Labs%20_ADSP.pdf)]
+    - Job Skill Recommendation, proposed by INDA [[project proposal](https://adsp-polito.github.io/INDA_ADSP.pdf)]
+    - Music Emotion Recognition, proposed by LINKS Foundation [[project proposal](https://adsp-polito.github.io/LINKS_ADSP.pdf)] 
 
 
 ### Expected Learning Outcomes 
