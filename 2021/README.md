@@ -1,6 +1,6 @@
 ## Applied Data Science Project (ADSP 01TXXSM) 
 
-### 1st Semester 2021-2022
+### 2021-2022 1st Semester 
 
 The course is offered in the first semester of the 2nd year at Politecnico di Torino, Data Science and Engineering. The course is in English. 
 
@@ -36,11 +36,15 @@ Laboratory activities will expose students with first-hand experience in project
     - Paper [[slides](https://adsp-polito.github.io/2021/L17%20-%20ADSP%20-%20Project%20communication%20tools%20II.pdf)]
     - Deliverable [[slides](https://adsp-polito.github.io/2021/L18%20-%20ADSP%20-%20Project%20communication%20tools%20III.pdf)]
 - Success stories [[slides](https://adsp-polito.github.io/2021/L19%20-%20ADSP%20-%20Success%20stories.pdf)]
-- Project proposals [[slides](https://adsp-polito.github.io/2021/L20%20-%20ADSP%20-%20Project%20proposals.pdf)]
-    - Privacy Preserving Health Insurance Cross-sell Prediction, proposed by Accenture Labs [[project proposal](https://adsp-polito.github.io/2021/Accenture%20Labs%20_ADSP.pdf)]
-    - Job Skill Recommendation, proposed by INDA [[project proposal](https://adsp-polito.github.io/2021/INDA_ADSP.pdf)]
-    - Music Emotion Recognition, proposed by LINKS Foundation [[project proposal](https://adsp-polito.github.io/2021/LINKS_ADSP.pdf)] 
+- Project proposals
 
+### Some Past Projects
+- Privacy Preserving Health Insurance Cross-sell Prediction
+  - [[proposal](https://adsp-polito.github.io/2021/projects/ADSP%20Accenture%20Labs.pdf)] by Accenture Labs France
+  - [[slides](https://adsp-polito.github.io/2021/projects/ADSP%20INDA%20Presentation.pdf)] and [[paper](https://adsp-polito.github.io/2021/projects/ADSP%20INDA%20Paper.pdf)]
+- Job Skill Recommendation
+  - [[proposal](https://adsp-polito.github.io/2021/projects/ADSP%20INDA.pdf)] by INDA
+  - [[slides](https://adsp-polito.github.io/2021/projects/ADSP%20Acc%20Presentation.pdf)] and [[paper](https://adsp-polito.github.io/2021/projects/ADSP%20Acc%20Paper.pdf)]
 
 ### Expected Learning Outcomes 
 - Knowledge of first-hand computational tools to address Data Science projects  

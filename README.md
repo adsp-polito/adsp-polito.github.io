@@ -1,6 +1,6 @@
 ## Applied Data Science Project (ADSP 01TXXSM)
 
-### 1st Semester 2022-2023
+### 2022-2023 1st Semester
 
 The course is offered in the first semester of the 2nd year at Politecnico di Torino, Data Science and Engineering. The course is in English. 
 
