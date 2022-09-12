@@ -9,16 +9,16 @@ The goal of this course is to let students face, for the first time, a long runn
 Laboratory activities will expose students with first-hand experience in projects that massively use data science methodologies in collaboration with companies and applied research institutes with an international breadth.
 
 ### Topics
-- Introduction  [[slides]()]
-- Building an artificial intelligence solution with a data science approach [[slides]()]
-- Model and Data-centric projects [[slides]()]
-- Data Science project pillars [[slides]()] 
+- Introduction <!-- [[slides]()] -->
+- Building an artificial intelligence solution with a data science approach <!-- [[slides]()] -->
+- Model and Data-centric projects <!-- [[slides]()] -->
+- Data Science project pillars <!-- [[slides]()] --> 
   - Design: life and human centered design
   - Develop: foundation models and domain-adaptation
   - Manage: GANTT e work breakdown structure
   - Communicate: paper, deliverable and slides
-- 10 Practical tips [[slides]()]
-- Impact of a project and SGDs [[slides]()]
+- 10 Practical tips <!-- [[slides]()] -->
+- Impact of a project and SGDs <!-- [[slides]()] -->
 - Data Science project tools
   - Project design tools
     - Stakeholder maps and user personas
@@ -28,16 +28,16 @@ Laboratory activities will expose students with first-hand experience in project
     - Existing foundation models
     - Domain adaptation and downstream tasks
     - Version control and testing
-  - Project management tools [[slides]()]
+  - Project management tools <!-- [[slides]()] -->
     - GANTT
     - Work breakdown structure, work packages and tasks, milestones
   - Project communication tools
     - Project communication
-    - Presentation [[slides]()]
-    - Paper [[slides]()]
-    - Deliverable [[slides]()]
-- Success stories [[slides]()]
-- Project proposals [[slides]()]
+    - Presentation <!-- [[slides]()] -->
+    - Paper <!-- [[slides]()] -->
+    - Deliverable <!-- [[slides]()] -->
+- Success stories <!-- [[slides]()] -->
+- Project proposals <!-- [[slides]()] -->
 
 ### Expected Learning Outcomes 
 - Knowledge of first-hand computational tools to address data science projects  
@@ -72,10 +72,10 @@ Reference books:
 - Noessel C. Designing Agentive Technology. AI That Works for People. Rosenfeld, 2013
 
 ### Teaching Team
-Giuseppe Rizzo (owner of the course, prof of AI and Data Science tools), Antonella Frisiello (prof of Service Design/UX), Alessandro Fiori, Edoardo Arnaudo, Bartolomeo Vacchetti (teaching assistants)
+Giuseppe Rizzo (owner of the course, prof of AI and Data Science tools), Antonella Frisiello (prof of Service Design and UX), Alessandro Fiori, Edoardo Arnaudo, Bartolomeo Vacchetti (teaching assistants)
 
 ### Previous editions
-- [[2021-2022 ADSP](https://adsp-polito.github.io/2021/)]
+- [2021-2022 ADSP 1st Semester](https://adsp-polito.github.io/2021/)
 
 ### Contacts
 For any question, feel you free to drop an email to <giuseppe.rizzo@linksfoundation.com>
