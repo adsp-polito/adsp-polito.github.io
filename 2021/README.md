@@ -41,10 +41,10 @@ Laboratory activities will expose students with first-hand experience in project
 ### Some Past Projects
 - Privacy Preserving Health Insurance Cross-sell Prediction
   - [[proposal](https://adsp-polito.github.io/2021/projects/ADSP%20Accenture%20Labs.pdf)] by Accenture Labs France
-  - [[slides](https://adsp-polito.github.io/2021/projects/ADSP%20INDA%20Presentation.pdf)] and [[paper](https://adsp-polito.github.io/2021/projects/ADSP%20INDA%20Paper.pdf)]
+  - [[presentation](https://adsp-polito.github.io/2021/projects/ADSP%20Acc%20Presentation.pdf)] and [[paper](https://adsp-polito.github.io/2021/projects/ADSP%20Acc%20Paper.pdf)]
 - Job Skill Recommendation
   - [[proposal](https://adsp-polito.github.io/2021/projects/ADSP%20INDA.pdf)] by INDA
-  - [[slides](https://adsp-polito.github.io/2021/projects/ADSP%20Acc%20Presentation.pdf)] and [[paper](https://adsp-polito.github.io/2021/projects/ADSP%20Acc%20Paper.pdf)]
+  - [[presentation](https://adsp-polito.github.io/2021/projects/ADSP%20INDA%20Presentation.pdf)] and [[paper](https://adsp-polito.github.io/2021/projects/ADSP%20INDA%20Paper.pdf)]
 
 ### Expected Learning Outcomes 
 - Knowledge of first-hand computational tools to address Data Science projects  
