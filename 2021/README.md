@@ -66,5 +66,8 @@ The course includes practices on the lecture topics, laboratory sessions for the
 ### Team
 Giuseppe Rizzo (owner of the course, prof), Marco Torchiano (prof), Alberto Benincasa, Luca Colomba, Salvatore Greco (teaching assistants)
 
+### Share material
+The entire course material is shared with license [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 
+
 ### Contacts
-For any question, feel you free to drop an email to <giuseppe.rizzo@linksfoundation.com>
+For any question, feel you free to drop an email to <giuseppe.rizzo@polito.it>

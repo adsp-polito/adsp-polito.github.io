@@ -77,5 +77,8 @@ Giuseppe Rizzo (owner of the course, prof of AI and Data Science tools), Antonel
 ### Previous editions
 - [2021-2022 ADSP 1st Semester](https://adsp-polito.github.io/2021/)
 
+### Share material
+The entire course material is shared with license [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 
+
 ### Contacts
-For any question, feel you free to drop an email to <giuseppe.rizzo@linksfoundation.com>
+For any question, feel you free to drop an email to <giuseppe.rizzo@polito.it>
