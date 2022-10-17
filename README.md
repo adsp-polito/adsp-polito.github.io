@@ -9,15 +9,15 @@ The goal of this course is to let students face, for the first time, a long runn
 Laboratory activities will expose students with first-hand experience in projects that massively use data science methodologies in collaboration with companies and applied research institutes with an international breadth.
 
 ### Topics
-- Introduction <!-- [[slides]()] -->
-- Building an artificial intelligence solution with a data science approach <!-- [[slides]()] -->
-- Model and Data-centric projects <!-- [[slides]()] -->
-- Data Science project pillars <!-- [[slides]()] --> 
+- Introduction: building an artificial intelligence solution with a data science approach [[slides](https://adsp-polito.github.io/2022/L1%20-%20ADSP%20-%20Intro.pdf)]
+- Pillars [[slides](https://adsp-polito.github.io/2022/L2%20-%20ADSP%20-%20Pillars.pdf)]
   - Design: life and human centered design
   - Develop: foundation models and domain-adaptation
   - Manage: GANTT e work breakdown structure
   - Communicate: paper, deliverable and slides
-- 10 Practical tips <!-- [[slides]()] -->
+- Model and Data-centric projects [[slides](https://adsp-polito.github.io/2022/L3%20-%20ADSP%20-%20Model%20_%20Data-centric%20projects.pdf)]
+- Foundation Models [[slides](https://adsp-polito.github.io/2022/L4%20-%20ADSP%20-%20Foundation%20models.pdf)]
+- 10 Practical tips [slides](https://adsp-polito.github.io/2022/L5%20-%20ADSP%20-%2010%20practical%20tips.pdf)
 - Impact of a project and SGDs <!-- [[slides]()] -->
 - Data Science project tools
   - Project design tools
