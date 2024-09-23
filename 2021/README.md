@@ -38,7 +38,7 @@ Laboratory activities will expose students with first-hand experience in project
 - Success stories [[slides](https://adsp-polito.github.io/2021/L19%20-%20ADSP%20-%20Success%20stories.pdf)]
 - Project proposals
 
-### Some Past Projects
+### Some Projects
 - Privacy Preserving Health Insurance Cross-sell Prediction
   - [[proposal](https://adsp-polito.github.io/2021/projects/ADSP%20Accenture%20Labs.pdf)] by Accenture Labs France
   - [[presentation](https://adsp-polito.github.io/2021/projects/ADSP%20Acc%20Presentation.pdf)] and [[paper](https://adsp-polito.github.io/2021/projects/ADSP%20Acc%20Paper.pdf)]

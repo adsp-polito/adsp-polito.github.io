@@ -1,6 +1,6 @@
 ## Applied Data Science Project (ADSP 01TXXSM)
 
-### 2022-2023 1st Semester
+### 2024-2025 1st Semester
 
 The course is offered in the first semester of the 2nd year at Politecnico di Torino, Data Science and Engineering. The course is in English. 
 
@@ -9,30 +9,41 @@ The goal of this course is to let students face, for the first time, a long runn
 Laboratory activities will expose students with first-hand experience in projects that massively use data science methodologies in collaboration with companies and applied research institutes with an international breadth.
 
 ### Topics
-- Introduction: building an artificial intelligence solution with a data science approach [[slides](https://adsp-polito.github.io/2022/L01%20-%20ADSP%20-%20Intro.pdf)]
-- Pillars [[slides](https://adsp-polito.github.io/2022/L02%20-%20ADSP%20-%20Pillars.pdf)]
-  - Design: life and human centered design
-  - Develop: foundation models and domain-adaptation
-  - Manage: GANTT e work breakdown structure
-  - Communicate: paper, deliverable and slides
-- Model and Data-centric projects [[slides](https://adsp-polito.github.io/2022/L03%20-%20ADSP%20-%20Model%20_%20Data-centric%20projects.pdf)]
-- Foundation Models [[slides](https://adsp-polito.github.io/2022/L04%20-%20ADSP%20-%20Foundation%20models.pdf)]
-- Practical tips [[slides](https://adsp-polito.github.io/2022/L05%20-%20ADSP%20-%2010%20practical%20tips.pdf)]
-- Impact of a project and SGDs [[slides](https://adsp-polito.github.io/2022/L06%20-%20ADSP%20-%20SGDs%20and%20data%20science%20project%20examples.pdf)]
-- Tools
-  - Design: 
-    - Human centered-design [[slides](https://adsp-polito.github.io/2022/L07%20-%20ADSP%20HCD%20Intro.pdf)], Stakeholder maps [[slides](https://adsp-polito.github.io/2022/L08%20L09%20-%20ADSP%20HCD%20Stakeholders%20map.pdf)]
-    - Personas [[slides](https://adsp-polito.github.io/2022/L14%20-%20ADSP%20HCD%20Personas.pdf)], HCD Journey [[slides](https://adsp-polito.github.io/2022/L18%2019%20-%20ADSP%20HCD%20journey.pdf)]
-    - From user research to solution definition [[slides](https://adsp-polito.github.io/2022/L10%20-%20ADSP%20-%20Functional%20requirements%20and%20diagram.pdf)]
-  - Manage: WBS, Work packages and tasks, Milestones, GANTT [[slides](https://adsp-polito.github.io/2022/L11%20-%20ADSP%20-%20WBS%20and%20Gantt.pdf)]
+Lectures (30 hours)
+- Building an artificial intelligence prototype with a data science approach 
+- Introduction to project pillars
+  - Design: human-centered artificial intelligence prototyping
+  - Development: foundation models, large language models, vision language models, domain-adaptation, retrieval augumented generation
+  - Management: GANTT e work breakdown structure
+  - Communication: paper, deliverable and slides
+- Model and Data-centric projects
+- Foundation Models
+- Retrieval Augumented Generation
+- Artificial intelligence ethics 
+- Impact of a project and SGDs 
+- Project Tools
+  - Project design tools: 
+    - Stakeholder maps and user personas
+    - User journey
   - Develop    
-    - Colaboratory [[slides](https://adsp-polito.github.io/2022/L12%20-%20ADSP%20-%20Colaboratory.pdf)] [[notebook](https://adsp-polito.github.io/2022/L12%20-%20IMDb%20Sentiment%20Analysis.ipynb)]  
-    - Foundation models: hub and examples [[slides](https://adsp-polito.github.io/2022/L13%20-%20ADSP%20-%20Foundation%20models%20-%20hub%20and%20examples.pdf)] [[notebook](https://adsp-polito.github.io/2022/L13%20-%20ADSP%20-%20BERT%20Masking%20and%20NER.ipynb)]
-    - Version control [[slides](https://adsp-polito.github.io/2022/L15%20-%20ADSP%20-%20Version%20Control.pdf)]
-    - Team communication [[slides](https://adsp-polito.github.io/2022/L16%20-%20ADSP%20-%20Team%20communication.pdf)]   
-  - Communicate: slides [[slides](https://adsp-polito.github.io/2022/L17%20-%20ADSP%20-%20Slides.pdf)], paper and deliverable [[slides](https://adsp-polito.github.io/2022/L20%20-%20ADSP%20-%20Report.pdf)]
-- Success stories [[slides](https://adsp-polito.github.io/2022/L21%20-%20ADSP%20-%20Success%20stories.pdf)]
-- Project proposals [[slides](https://adsp-polito.github.io/2022/L22%20-%20ADSP%20-%20Project%20proposals.pdf)]
+    - Functional requirements: from a user research to solution definition
+    - Existing foundation models
+    - Domain adaptation and downstream tasks
+    - Retrieval Augumented Generation implementation 
+    - Version control and testing
+  - Project management tools
+    - GANTT
+    - Work breakdown structure, work packages and tasks, milestones
+  - Project communication tools
+    - Project communication
+    - Presentation
+    - Paper
+    - Deliverable
+- Success stories and past projects 
+
+Laboratory activities (90 hours)
+- Project proposals
+- Generation of the prototype
 
 ### Expected Learning Outcomes 
 - Knowledge of first-hand computational tools to address data science projects  
@@ -65,11 +76,23 @@ Reference books:
 - Oxford Guide to Effective Writing and Speaking: How to Communicate Clearly, by John Seely
 - The Design of Everyday Things: Revised and Expanded Edition, by Donald Norman
 - Noessel C. Designing Agentive Technology. AI That Works for People. Rosenfeld, 2013
+- Proposal for a Regulation laying down harmonised rules on artificial intelligence, European Commission, 2021
 
 ### Teaching Team
-Giuseppe Rizzo (owner of the course, prof of AI and Data Science tools), Antonella Frisiello (prof of Service Design and UX), Alessandro Fiori, Edoardo Arnaudo, Bartolomeo Vacchetti (teaching assistants)
+- Giuseppe Rizzo (owner of the course, prof of AI and Data Science tools)
+- Antonella Frisiello (prof of Service Design and UX)
+- Giuseppe Tipaldo (prof of Communication)
+- Alessandro Fiori (project assistant)
+- Federico D'Asaro (project assistant)
+- Luca Barco (project assistant) 
+- Bartolomeo Vacchetti (project assistant)
+
+Past members:
+- Edoardo Arnaudo (project assistant)
 
 ### Previous editions
+- [2023-2024 ADSP 1st Semester](https://adsp-polito.github.io/2023/)
+- [2022-2023 ADSP 1st Semester](https://adsp-polito.github.io/2022/)
 - [2021-2022 ADSP 1st Semester](https://adsp-polito.github.io/2021/)
 
 ### Share material
