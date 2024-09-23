@@ -11,19 +11,19 @@ Laboratory activities will expose students with first-hand experience in project
 
 ### Topics
 
-- Introduction [[slides](https://adsp-polito.github.io/2022/L1%20-%20ADSP%20-%20Intro.pdf)]
-- Data Science project pillars [[slides](https://adsp-polito.github.io/2022/L2%20-%20ADSP%20-%20Pillars.pdf)] 
+- Introduction [[slides](https://adsp-polito.github.io/2022/L01%20-%20ADSP%20-%20Intro.pdf)]
+- Data Science project pillars [[slides](https://adsp-polito.github.io/2022/L02%20-%20ADSP%20-%20Pillars.pdf)] 
   - Design 
   - Develop
   - Manage
   - Communicate
-- Model and Data-centric projects [[slides](https://adsp-polito.github.io/2022/L3%20-%20ADSP%20-%20Model%20&%20Data%20centric.pdf)]
-- Foundation models [[slides](https://adsp-polito.github.io/2022/L4%20-%20ADSP%20-%20Foundation%20models.pdf)]
-- 10 Practical tips [[slides](https://adsp-polito.github.io/2022/L5%20-%20ADSP%20-%2010%20practical%20tips.pdf)]
-- Sustainable development goals and data science examples [[slides](https://adsp-polito.github.io/2022/L6%20-%20ADSP%20-%20SGDs%20and%20data%20science%20project%20examples.pdf)]
+- Model and Data-centric projects [[slides](https://adsp-polito.github.io/2022/L03%20-%20ADSP%20-%20Model%20&%20Data%20centric.pdf)]
+- Foundation models [[slides](https://adsp-polito.github.io/2022/L04%20-%20ADSP%20-%20Foundation%20models.pdf)]
+- 10 Practical tips [[slides](https://adsp-polito.github.io/2022/L05%20-%20ADSP%20-%2010%20practical%20tips.pdf)]
+- Sustainable development goals and data science examples [[slides](https://adsp-polito.github.io/2022/L06%20-%20ADSP%20-%20SGDs%20and%20data%20science%20project%20examples.pdf)]
 - Data Science project tools
   - Project design tools
-    - Human computer design [[slides](https://adsp-polito.github.io/2022/L7%20-%20ADSP%20-%20HDC%20Intro.pdf)]
+    - Human computer design [[slides](https://adsp-polito.github.io/2022/L07%20-%20ADSP%20-%20HDC%20Intro.pdf)]
     - Stakeholder maps [[slides](https://adsp-polito.github.io/2022/L08%20L09%20-%20ADSP%20HCD%20Stakeholders%20map.pdf)] 
     - Personas [[slides](https://adsp-polito.github.io/2022/L14%20-%20ADSP%20HCD%20Personas.pdf)] 
     - Journey [[slides](https://adsp-polito.github.io/2022/L18%2019%20-%20ADSP%20HCD%20journey.pdf)]
