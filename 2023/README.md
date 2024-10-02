@@ -22,7 +22,7 @@ Laboratory activities will expose students with first-hand experience with data 
 - Foundation Models [[slides](https://adsp-polito.github.io/2023/L04%20-%20ADSP%20-%20Foundation%20models.pdf)]
 - Transfer learning and Domain adaptation [[slides](https://adsp-polito.github.io/2023/L05%20-%20ADSP%20-%20Transfer%20learning%20and%20domain%20adaptation.pdf)]
 - Impact of a project and SGDs [[slides](https://adsp-polito.github.io/2023/L06%20-%20ADSP%20-%20SGDs%20and%20data%20science%20project%20examples.pdf)]
-- Artificial intelligence ethics [[slides](https://adsp-polito.github.io/2023/L10%20-%20L10%20-%20ADSP%20-%20AI%20Ethics.pdf)]
+- Artificial intelligence ethics [[slides](https://adsp-polito.github.io/2023/L10%20-%20ADSP%20-%20AI%20Ethics.pdf)]
 - Tools
   - Project design tools: 
     - HDC [[slides](https://adsp-polito.github.io/2023/L16%20-%20ADSP%20HCD%20Intro.pdf)], Stakeholder maps [[slides](https://adsp-polito.github.io/2023/L17%20HCD%20Stakeholders%20map.pdf)], User personas [[slides](https://adsp-polito.github.io/2023/L18%20-%20ADSP%20-%20HCD%20Personas.pdf)]
