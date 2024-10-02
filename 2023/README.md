@@ -30,7 +30,7 @@ Laboratory activities will expose students with first-hand experience with data 
     - Social research methodology [[slides](https://adsp-polito.github.io/2023/L20%20-%20ADSP%20-%20Social%20Research%20Methodology.pdf)]
   - Project development tools    
     - Colaboratory [[slides](https://adsp-polito.github.io/2023/L09%20-%20ADSP%20-%20Colaboratory.pdf)] [[notebook](https://adsp-polito.github.io/2023/L09%20-%20IMDb%20Sentiment%20Analysis.ipynb)]  
-    - Foundation models: hub and examples [[slides](https://adsp-polito.github.io/2023/L11%20-%20ADSP%20-%20Hub%20of%20(foundation)%20models)] [[notebook](https://adsp-polito.github.io/2023/L11%20-%20ADSP%20-%20BERT%20Masking%20and%20NER.ipynb)]
+    - Foundation models: hub and examples [[slides](https://adsp-polito.github.io/2023/L11%20-%20ADSP%20-%20Hub%20of%20(foundation)%20models.pdf)] [[notebook](https://adsp-polito.github.io/2023/L11%20-%20ADSP%20-%20BERT%20Masking%20and%20NER.ipynb)]
     - Version control [[slides](https://adsp-polito.github.io/2023/L12%20-%20ADSP%20-%20Version%20Control.pdf)]
     - Team communication [[slides](https://adsp-polito.github.io/2023/L13%20-%20ADSP%20-%20Team%20communication.pdf)]   
   - Project management tools: WBS, Work packages and tasks, Milestones, GANTT [[slides](https://adsp-polito.github.io/2023/L08%20-%20ADSP%20-%20WBS%20and%20Gantt.pdf)]
