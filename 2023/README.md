@@ -25,7 +25,7 @@ Laboratory activities will expose students with first-hand experience with data 
 - Artificial intelligence ethics [[slides](https://adsp-polito.github.io/2023/L10%20-%20ADSP%20-%20AI%20Ethics.pdf)]
 - Tools
   - Project design tools: 
-    - HDC [[slides](https://adsp-polito.github.io/2023/L16%20-%20ADSP%20-%20HCD%20Introduction.pdf)], Stakeholder maps [[slides](https://adsp-polito.github.io/2023/L17%20HCD%20Stakeholders%20map.pdf)], User personas [[slides](https://adsp-polito.github.io/2023/L18%20-%20ADSP%20-%20HCD%20Personas.pdf)]
+    - HDC [[slides](https://adsp-polito.github.io/2023/L16%20-%20ADSP%20-%20HCD%20Introduction.pdf)], Stakeholder maps [[slides](https://adsp-polito.github.io/2023/L17%20-%20ADSP%20-%20HCD%20Stakeholders%20map.pdf)], User personas [[slides](https://adsp-polito.github.io/2023/L18%20-%20ADSP%20-%20HCD%20Personas.pdf)]
     - User journey [[slides](https://adsp-polito.github.io/2023/L19%20-%20ADSP%20-%20HCD%20User-Data%20journey.pdf)]
     - Social research methodology [[slides](https://adsp-polito.github.io/2023/L20%20-%20ADSP%20-%20Social%20Research%20Methodology.pdf)]
   - Project development tools    
