@@ -17,7 +17,7 @@ Laboratory activities will expose students with first-hand experience in project
   - Develop
   - Manage
   - Communicate
-- Model and Data-centric projects [[slides](https://adsp-polito.github.io/2022/L03%20-%20ADSP%20-%20Model_Data%20centric%20projects.pdf)]
+- Model and Data-centric projects [[slides](https://adsp-polito.github.io/2022/L03%20-%20ADSP%20-%20Model_Data-centric%20projects.pdf)]
 - Foundation models [[slides](https://adsp-polito.github.io/2022/L04%20-%20ADSP%20-%20Foundation%20models.pdf)]
 - 10 Practical tips [[slides](https://adsp-polito.github.io/2022/L05%20-%20ADSP%20-%2010%20practical%20tips.pdf)]
 - Sustainable development goals and data science examples [[slides](https://adsp-polito.github.io/2022/L06%20-%20ADSP%20-%20SGDs%20and%20data%20science%20project%20examples.pdf)]
