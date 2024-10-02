@@ -18,9 +18,9 @@ Laboratory activities will expose students with first-hand experience with data 
   - Develop: foundation models and domain-adaptation
   - Manage: GANTT e work breakdown structure
   - Communicate: paper, deliverable and slides
-- Model and Data-centric projects [[slides](https://adsp-polito.github.io/2023/L03%20-%20ADSP%20-%20Model%20_%20Data-centric%20projects.pdf)]
+- Model and Data-centric projects [[slides](https://adsp-polito.github.io/2023/L03%20-%20ADSP%20-%20Model_Data-centric%20projects.pdf)]
 - Foundation Models [[slides](https://adsp-polito.github.io/2023/L04%20-%20ADSP%20-%20Foundation%20models.pdf)]
-- Transfer learning and Domain adaptation [[slides](https://adsp-polito.github.io/2023/L05%20-%20L05%20-%20ADSP%20-%20Transfer%20learning%20and%20domain%20adaptation.pdf)]
+- Transfer learning and Domain adaptation [[slides](https://adsp-polito.github.io/2023/L05%20-%20ADSP%20-%20Transfer%20learning%20and%20domain%20adaptation.pdf)]
 - Impact of a project and SGDs [[slides](https://adsp-polito.github.io/2023/L06%20-%20ADSP%20-%20SGDs%20and%20data%20science%20project%20examples.pdf)]
 - Artificial intelligence ethics [[slides](https://adsp-polito.github.io/2023/L10%20-%20L10%20-%20ADSP%20-%20AI%20Ethics.pdf)]
 - Tools
