@@ -1,4 +1,4 @@
-## Applied Data Science Project (ADSP 02TXXWS)
+## Applied Data Science Project (ADSP 02TXXWS - 8 CFU)
 
 ### 2025-2026 1st Semester
 
