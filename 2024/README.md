@@ -50,7 +50,7 @@ Laboratory activities for the making of the projects (90 hours)
 - [Retrieval-Augmented Generation in a Low Lexical Diversity Scenario](https://github.com/adsp-polito/2024-P10-RAG-GAS)
 - [Oil Spill Detection on SAR Images: Comparative Analysis of Five Segmentation Models](https://github.com/adsp-polito/2024-P11-SAR)
 - [Transformer-Based Time-to-Failure prediction for plane engine with NASA C-MAPSS multivariate timeseries](https://github.com/adsp-polito/2024-P12-TTF)
-- [Leveraging Large Language Models for Marketing Analytics] (https://github.com/adsp-polito/2024-P14-IPL)
+- [Leveraging Large Language Models for Marketing Analytics](https://github.com/adsp-polito/2024-P14-IPL)
 
 ### Expected Learning Outcomes 
 - Knowledge of first-hand computational tools to address data science projects  
