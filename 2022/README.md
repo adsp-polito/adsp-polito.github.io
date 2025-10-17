@@ -41,7 +41,6 @@ Laboratory activities will expose students with first-hand experience in project
 - Success stories [[slides](https://adsp-polito.github.io/2022/L21%20-%20ADSP%20-%20Success%20stories.pdf)]
 - Project proposals
 
-### Some Projects
 
 
 ### Expected Learning Outcomes 

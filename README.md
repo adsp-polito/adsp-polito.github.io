@@ -1,6 +1,6 @@
-## Applied Data Science Project (ADSP 01TXXSM)
+## Applied Data Science Project (ADSP 02TXXWS)
 
-### 2024-2025 1st Semester
+### 2025-2026 1st Semester
 
 The course is offered in the first semester of the 2nd year at Politecnico di Torino, Data Science and Engineering. The course is in English. 
 
@@ -9,41 +9,33 @@ The goal of this course is to let students face, for the first time, a long runn
 Laboratory activities will expose students with first-hand experience in projects that massively use data science methodologies in collaboration with companies and applied research institutes with an international breadth.
 
 ### Topics
-Lectures (30 hours)
-- Building an artificial intelligence prototype with a data science approach 
-- Introduction to project pillars
-  - Design: human-centered artificial intelligence prototyping
-  - Development: foundation models, large language models, vision language models, domain-adaptation, retrieval augumented generation
-  - Management: GANTT e work breakdown structure
-  - Communication: paper, deliverable and slides
-- Model and Data-centric projects
-- Foundation Models
-- Retrieval Augumented Generation
-- Artificial intelligence ethics 
-- Impact of a project and SGDs 
-- Project Tools
-  - Project design tools: 
-    - Stakeholder maps and user personas
-    - User journey
-  - Develop    
-    - Functional requirements: from a user research to solution definition
-    - Existing foundation models
-    - Domain adaptation and downstream tasks
-    - Retrieval Augumented Generation implementation 
-    - Version control and testing
-  - Project management tools
-    - GANTT
-    - Work breakdown structure, work packages and tasks, milestones
-  - Project communication tools
-    - Project communication
-    - Presentation
-    - Paper
-    - Deliverable
-- Success stories and past projects 
+Lectures (26 hours)
+- Building an artificial intelligence application (1.5h)
+- Introduction to project pillars: management, design, development and communication (1.5h)
+- Model and Data-centric projects (1.5h)
+- Foundation models (1.5)
+- Retrieval Augumented Generation (1.5h)
+- Artificial intelligence ethics (1.5h)
+- Impact of a project and SGDs (1.5h)
+- Project tools (14h)
+- Management: GANTT, Work breakdown structure, work packages and tasks, milestone
+- Design: User personas, stakeholder map, functional requirements
+- Development:
+- Foundation models: Large language models and vision language models
+- Domain adaptation and downstream tasks
+- Retrieval Augumented Generation implementation
+- Version control and testing
+- Communication: Presentation, Technical Paper, Deliverable
+- Success stories of past projects (1.5h)
 
-Laboratory activities (90 hours)
-- Project proposals
-- Generation of the prototype
+Laboratory activities (54h)
+- Project proposals (1.5h)
+- User-centred application (3h)
+- Stakeholder maps and user personas
+- User journey
+- Use of SDKs and REST APIs of commercial neural models with prompt engineering (6h)
+- Use of Ollama with open source models (3h)
+- Development of the team project (40.5)
 
 ### Expected Learning Outcomes 
 - Knowledge of first-hand computational tools to address data science projects  
@@ -81,16 +73,12 @@ Reference books:
 ### Teaching Team
 - Giuseppe Rizzo (owner of the course, prof of AI and Data Science tools)
 - Antonella Frisiello (prof of Service Design and UX)
-- Giuseppe Tipaldo (prof of Communication)
-- Alessandro Fiori (project assistant)
-- Federico D'Asaro (project assistant)
-- Luca Barco (project assistant) 
-- Bartolomeo Vacchetti (project assistant)
-
-Past members:
-- Edoardo Arnaudo (project assistant)
+- Alessandro Fiori (teaching assistant)
+- Federico D'Asaro (teaching assistant)
+- Luca Barco (teaching assistant) 
 
 ### Previous editions
+- [2024-2025 ADSP 1st Semester](https://adsp-polito.github.io/2024/)
 - [2023-2024 ADSP 1st Semester](https://adsp-polito.github.io/2023/)
 - [2022-2023 ADSP 1st Semester](https://adsp-polito.github.io/2022/)
 - [2021-2022 ADSP 1st Semester](https://adsp-polito.github.io/2021/)
@@ -99,4 +87,4 @@ Past members:
 The entire course material is shared with license [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 
 
 ### Contacts
-For any question, feel you free to drop an email to <giuseppe.rizzo@polito.it>
+For any question, feel you free to mail <giuseppe.rizzo@polito.it>
