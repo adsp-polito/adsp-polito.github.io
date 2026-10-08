@@ -1,1 +1,17 @@
-theme: jekyll-theme-tactile
+title: Applied Data Science Project
+description: Design, develop, manage and communicate an AI project at Politecnico di Torino.
+url: https://adsp-polito.github.io
+baseurl: ""
+lang: en
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - MAINTENANCE.md
+  - .gitignore
+  - .bundle

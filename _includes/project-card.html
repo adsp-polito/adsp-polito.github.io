@@ -1,0 +1,10 @@
+<article class="project-card">
+  <div class="project-meta"><span>{{ include.project.category | escape }}</span><span>{{ include.project.edition }}</span></div>
+  <h3>{{ include.project.title | escape }}</h3>
+  <p>{{ include.project.description | escape }}</p>
+  <div class="project-links">
+    {% for link in include.project.links %}
+    <a href="{% if link.url contains '://' %}{{ link.url | escape }}{% else %}{{ link.url | relative_url | escape }}{% endif %}" aria-label="{{ link.label | escape }}: {{ include.project.title | escape }}">{{ link.label | escape }} {% include icon.html name='external' %}</a>
+    {% endfor %}
+  </div>
+</article>

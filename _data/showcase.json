@@ -1,0 +1,90 @@
+[
+  {
+    "title": "F1LLM: Intelligent Agent for Formula 1 Telemetry Analysis",
+    "category": "Sports analytics",
+    "description": "An intelligent agent for Formula 1 telemetry analysis.",
+    "edition": "2024–2025",
+    "links": [
+      {
+        "label": "Repository",
+        "url": "https://github.com/adsp-polito/2024-P3-F1LLM"
+      }
+    ]
+  },
+  {
+    "title": "Foosball Table Real-Time Object Detection",
+    "category": "Computer vision",
+    "description": "Real-time object detection on a foosball table.",
+    "edition": "2024–2025",
+    "links": [
+      {
+        "label": "Repository",
+        "url": "https://github.com/adsp-polito/2024-P4-FD"
+      }
+    ]
+  },
+  {
+    "title": "Corn Yield Prediction",
+    "category": "Agriculture",
+    "description": "Predicting corn yield with data science.",
+    "edition": "2024–2025",
+    "links": [
+      {
+        "label": "Repository",
+        "url": "https://github.com/adsp-polito/2024-P6-CYF"
+      }
+    ]
+  },
+  {
+    "title": "Improving Retrieval Performance in Retrieval-Augmented Generation Architecture",
+    "category": "Language models",
+    "description": "Improving retrieval performance in a RAG architecture.",
+    "edition": "2024–2025",
+    "links": [
+      {
+        "label": "Repository",
+        "url": "https://github.com/adsp-polito/2024-P9-RAG-MARCO"
+      }
+    ]
+  },
+  {
+    "title": "Privacy Preserving Health Insurance Cross-sell Prediction",
+    "category": "Health & privacy",
+    "description": "A project proposed by Accenture Labs France.",
+    "edition": "2021–2022",
+    "links": [
+      {
+        "label": "Proposal",
+        "url": "/2021/projects/ADSP%20Accenture%20Labs.pdf"
+      },
+      {
+        "label": "Presentation",
+        "url": "/2021/projects/ADSP%20Acc%20Presentation.pdf"
+      },
+      {
+        "label": "Paper",
+        "url": "/2021/projects/ADSP%20Acc%20Paper.pdf"
+      }
+    ]
+  },
+  {
+    "title": "Job Skill Recommendation",
+    "category": "Recommender systems",
+    "description": "A project proposed by INDA.",
+    "edition": "2021–2022",
+    "links": [
+      {
+        "label": "Proposal",
+        "url": "/2021/projects/ADSP%20INDA.pdf"
+      },
+      {
+        "label": "Presentation",
+        "url": "/2021/projects/ADSP%20INDA%20Presentation.pdf"
+      },
+      {
+        "label": "Paper",
+        "url": "/2021/projects/ADSP%20INDA%20Paper.pdf"
+      }
+    ]
+  }
+]

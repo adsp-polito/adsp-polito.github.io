@@ -1,0 +1,32 @@
+[
+  {
+    "year": "2025",
+    "label": "2025–2026",
+    "path": "/",
+    "current": true
+  },
+  {
+    "year": "2024",
+    "label": "2024–2025",
+    "path": "/2024/",
+    "current": false
+  },
+  {
+    "year": "2023",
+    "label": "2023–2024",
+    "path": "/2023/",
+    "current": false
+  },
+  {
+    "year": "2022",
+    "label": "2022–2023",
+    "path": "/2022/",
+    "current": false
+  },
+  {
+    "year": "2021",
+    "label": "2021–2022",
+    "path": "/2021/",
+    "current": false
+  }
+]

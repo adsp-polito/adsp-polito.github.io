@@ -1,0 +1,46 @@
+[
+  {
+    "id": "design",
+    "name": "Design",
+    "number": "01",
+    "question": "Start with people.",
+    "description": "Understand the need, map stakeholders and turn user research into clear requirements.",
+    "tags": [
+      "People & purpose",
+      "Requirements"
+    ]
+  },
+  {
+    "id": "develop",
+    "name": "Develop",
+    "number": "02",
+    "question": "Build with data.",
+    "description": "Explore models, work with data and build an AI solution you can evaluate and improve.",
+    "tags": [
+      "Data & models",
+      "Implementation"
+    ]
+  },
+  {
+    "id": "manage",
+    "name": "Manage",
+    "number": "03",
+    "question": "Make progress together.",
+    "description": "Organise the team, break down the work and follow tasks, milestones and results.",
+    "tags": [
+      "Teams & milestones",
+      "Project tools"
+    ]
+  },
+  {
+    "id": "communicate",
+    "name": "Communicate",
+    "number": "04",
+    "question": "Give your work a voice.",
+    "description": "Explain the choices, demonstrate the results and communicate the value of your project.",
+    "tags": [
+      "Results & impact",
+      "Storytelling"
+    ]
+  }
+]

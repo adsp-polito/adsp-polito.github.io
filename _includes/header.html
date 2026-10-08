@@ -1,0 +1,28 @@
+{% assign course_path = course.path | default: '/' %}
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="header-inner container">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="ADSP current edition home">
+      <span class="brand-mark">A<span class="brand-dot">.</span></span>
+      <span class="brand-copy"><strong>ADSP</strong><span>Politecnico di Torino</span></span>
+    </a>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="{{ course_path | relative_url }}#overview">Overview</a>
+      <a href="{{ course_path | relative_url }}#learning-path">Learning path</a>
+      <a href="{{ course_path | relative_url }}#lectures">Lectures</a>
+      <a href="{{ course_path | relative_url }}#projects">Projects</a>
+      <a href="{{ course_path | relative_url }}#resources">Resources</a>
+    </nav>
+    <div class="header-actions">
+      <details class="edition-menu">
+        <summary><span>{{ course.academic_year | default: 'Editions' }}</span>{% include icon.html name='chevron' %}</summary>
+        <ul aria-label="Course editions">
+        {% for edition in site.data.editions %}
+          <li><a href="{{ edition.path | relative_url }}"{% if edition.year == page.edition %} aria-current="page"{% endif %}><span>{{ edition.label }}</span>{% if edition.current %}<small>Current</small>{% else %}<small>Archive</small>{% endif %}</a></li>
+        {% endfor %}
+        </ul>
+      </details>
+      <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">{% include icon.html name='menu' %}</button>
+    </div>
+  </div>
+</header>

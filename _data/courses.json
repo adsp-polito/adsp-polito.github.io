@@ -1,0 +1,1439 @@
+{
+  "2025": {
+    "year": "2025",
+    "academic_year": "2025–2026",
+    "path": "/",
+    "code": "02TXXWS",
+    "current": true,
+    "outcomes": [
+      "Knowledge of first-hand computational tools to address data science projects",
+      "Knowledge of the design best practices and tools",
+      "Knowledge of management strategies and tools",
+      "Knowledge of communication tools and skills",
+      "Knowledge of the solution impact",
+      "Hands on experience with a real data science project offered by companies and research institutes"
+    ],
+    "prerequisites": [
+      "Statistics",
+      "Data mining",
+      "Machine learning and deep learning",
+      "Python language",
+      "Relational, NoSQL, graph databases"
+    ],
+    "books": [
+      "Machine Learning Yearning, by Andrew Ng",
+      "Data Science from Scratch, Joel Grus",
+      "Harvard Business Review Project Management Handbook: How to Launch, Lead, and Sponsor Successful Projects, by Antonio Nieto-Rodriguez",
+      "Oxford Guide to Effective Writing and Speaking: How to Communicate Clearly, by John Seely",
+      "The Design of Everyday Things: Revised and Expanded Edition, by Donald Norman",
+      "Noessel C. Designing Agentive Technology. AI That Works for People. Rosenfeld, 2013",
+      "Proposal for a Regulation laying down harmonised rules on artificial intelligence, European Commission, 2021"
+    ],
+    "structure": "The course is structured in three folds: \n- Introduction to the concepts to perform a project\n- Introduction to the tools to put in place the concepts\n- Laboratory sessions for the execution of the projects and meetups with the company key resources (project managers and project leaders) to - successfully execute the assigned projects.",
+    "lectures": [
+      {
+        "title": "Building an artificial intelligence application",
+        "pillar": "overview",
+        "links": [],
+        "duration": "1.5h"
+      },
+      {
+        "title": "Introduction to the four project pillars",
+        "pillar": "overview",
+        "links": [],
+        "duration": "1.5h",
+        "description": "Design, development, management and communication."
+      },
+      {
+        "title": "Model- and data-centric projects",
+        "pillar": "develop",
+        "links": [],
+        "duration": "1.5h"
+      },
+      {
+        "title": "Foundation models",
+        "pillar": "develop",
+        "links": [],
+        "duration": "1.5h"
+      },
+      {
+        "title": "Retrieval-augmented generation",
+        "pillar": "develop",
+        "links": [],
+        "duration": "1.5h"
+      },
+      {
+        "title": "Artificial intelligence ethics",
+        "pillar": "design",
+        "links": [],
+        "duration": "1.5h"
+      },
+      {
+        "title": "Project impact and Sustainable Development Goals",
+        "pillar": "design",
+        "links": [],
+        "duration": "1.5h"
+      },
+      {
+        "title": "Project tools",
+        "pillar": "overview",
+        "links": [],
+        "duration": "14h",
+        "description": "Practical tools for each of the four pillars."
+      },
+      {
+        "title": "User personas, stakeholder maps and functional requirements",
+        "pillar": "design",
+        "links": []
+      },
+      {
+        "title": "Large language models and vision-language models",
+        "pillar": "develop",
+        "links": []
+      },
+      {
+        "title": "Domain adaptation and downstream tasks",
+        "pillar": "develop",
+        "links": []
+      },
+      {
+        "title": "Retrieval-augmented generation implementation",
+        "pillar": "develop",
+        "links": []
+      },
+      {
+        "title": "Version control and testing",
+        "pillar": "develop",
+        "links": []
+      },
+      {
+        "title": "Gantt, WBS, work packages, tasks and milestones",
+        "pillar": "manage",
+        "links": []
+      },
+      {
+        "title": "Presentations, technical papers and deliverables",
+        "pillar": "communicate",
+        "links": []
+      },
+      {
+        "title": "Success stories of past projects",
+        "pillar": "overview",
+        "links": [],
+        "duration": "1.5h"
+      }
+    ],
+    "labs": [
+      {
+        "title": "Project proposals",
+        "duration": "1.5h"
+      },
+      {
+        "title": "User-centred application",
+        "duration": "3h",
+        "description": "Stakeholder maps, user personas and user journeys."
+      },
+      {
+        "title": "Commercial neural models",
+        "duration": "6h",
+        "description": "SDKs, REST APIs and prompt engineering."
+      },
+      {
+        "title": "Open-source models with Ollama",
+        "duration": "3h"
+      },
+      {
+        "title": "Team project development",
+        "duration": "40.5h"
+      }
+    ],
+    "projects": [],
+    "team": [
+      {
+        "name": "Giuseppe Rizzo",
+        "role": "Course lead · AI & data science",
+        "initials": "GR"
+      },
+      {
+        "name": "Antonella Frisiello",
+        "role": "Service design & UX",
+        "initials": "AF"
+      },
+      {
+        "name": "Alessandro Fiori",
+        "role": "Teaching assistant",
+        "initials": "AF"
+      },
+      {
+        "name": "Federico D’Asaro",
+        "role": "Teaching assistant",
+        "initials": "FD"
+      },
+      {
+        "name": "Luca Barco",
+        "role": "Teaching assistant",
+        "initials": "LB"
+      }
+    ],
+    "credits": 8,
+    "lecture_hours": 26,
+    "lab_hours": 54
+  },
+  "2024": {
+    "year": "2024",
+    "academic_year": "2024–2025",
+    "path": "/2024/",
+    "code": "01TXXSM",
+    "current": false,
+    "outcomes": [
+      "Knowledge of first-hand computational tools to address data science projects",
+      "Knowledge of the design best practices and tools",
+      "Knowledge of management strategies and tools",
+      "Knowledge of communication tools and skills",
+      "Knowledge of the solution impact",
+      "Hands on experience with a real data science project offered by companies and research institutes"
+    ],
+    "prerequisites": [
+      "Statistics",
+      "Data mining",
+      "Machine learning and deep learning",
+      "Python language",
+      "Relational, NoSQL, graph databases"
+    ],
+    "books": [
+      "Machine Learning Yearning, by Andrew Ng",
+      "Data Science from Scratch, Joel Grus",
+      "Harvard Business Review Project Management Handbook: How to Launch, Lead, and Sponsor Successful Projects, by Antonio Nieto-Rodriguez",
+      "Oxford Guide to Effective Writing and Speaking: How to Communicate Clearly, by John Seely",
+      "The Design of Everyday Things: Revised and Expanded Edition, by Donald Norman",
+      "Noessel C. Designing Agentive Technology. AI That Works for People. Rosenfeld, 2013",
+      "Proposal for a Regulation laying down harmonised rules on artificial intelligence, European Commission, 2021"
+    ],
+    "structure": "The course is structured in three folds: \n- Introduction to the concepts to perform a project\n- Introduction to the tools to put in place the concepts\n- Laboratory sessions for the execution of the projects and meetups with the company key resources (project managers and project leaders) to - successfully execute the assigned projects.",
+    "lectures": [
+      {
+        "title": "Building an AI prototype with a data science approach",
+        "pillar": "overview",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L01%20-%20ADSP%20-%20Intro.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Introduction to the four project pillars",
+        "pillar": "overview",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L02%20-%20ADSP%20-%20Pillars.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Model- and data-centric projects",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L03%20-%20ADSP%20-%20Model_Data-centric%20projects.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Foundation models",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L04%20-%20ADSP%20-%20Foundation%20models.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Transfer learning and domain adaptation",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L05%20-%20ADSP%20-%20Transfer%20learning%20and%20domain%20adaptation.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Retrieval-augmented generation",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L06%20-%20ADSP%20-%20Retrieval%20augmented%20generation.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Artificial intelligence ethics",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L07%20-%20ADSP%20-%20AI%20Ethics.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Functional requirements and diagrams",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L08%20-%20ADSP%20-%20Functional%20requirements%20and%20diagram.pdf"
+          }
+        ]
+      },
+      {
+        "title": "WBS and Gantt",
+        "pillar": "manage",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L09%20-%20ADSP%20-%20WBS%20and%20Gantt.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Colaboratory",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L10%20-%20ADSP%20-%20Colaboratory.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Version control",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L10%20-%20ADSP%20-%20Version%20Control.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Hub of foundation models",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L11%20-%20ADSP%20-%20Hub%20of%20%28foundation%29%20models.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Human-centred design",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L12%20-%20ADSP%20-%20Human%20Centred%20Design_compressed.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Sustainable Development Goals",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L13%20-%20ADSP%20-%20SDGs%20and%20data%20science%20project%20examples.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Stakeholder mapping",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L21%20-%20ADSP%20HCD%20Stakeholders%20mapping_compressed.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Biases, stereotypes and personas",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L22-ADSP%20HCD%20Biases%20Stereotypes%20and%20Personas_compressed.pdf"
+          }
+        ]
+      },
+      {
+        "title": "User journeys and MVP",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L23-ADSP%20HCD%20User%20journey%20and%20MVP.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Miro board templates",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L24-ADSP%20HCD%20Templates%20Miro%20board.pdf"
+          }
+        ]
+      },
+      {
+        "title": "General public communication",
+        "pillar": "communicate",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/ADSP2024_Tipaldo.pdf"
+          }
+        ],
+        "description": "Social research and strategic communication with Giuseppe Tipaldo."
+      },
+      {
+        "title": "Presentations",
+        "pillar": "communicate",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L14%20-%20ADSP%20-%20Slides.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Technical papers",
+        "pillar": "communicate",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L15%20-%20ADSP%20-%20Paper%20example.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Deliverables",
+        "pillar": "communicate",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L15%20-%20ADSP%20-%20Report.pdf"
+          }
+        ]
+      },
+      {
+        "title": "10 practical tips",
+        "pillar": "overview",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2024/L18%20-%20ADSP%20-%2010%20practical%20tips.pdf"
+          }
+        ]
+      }
+    ],
+    "labs": [],
+    "projects": [
+      {
+        "title": "F1LLM: Intelligent Agent for Formula 1 Telemetry Analysis",
+        "category": "Sports analytics",
+        "description": "An intelligent agent for Formula 1 telemetry analysis.",
+        "edition": "2024–2025",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2024-P3-F1LLM"
+          }
+        ]
+      },
+      {
+        "title": "Foosball Table Real-Time Object Detection",
+        "category": "Computer vision",
+        "description": "Real-time object detection on a foosball table.",
+        "edition": "2024–2025",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2024-P4-FD"
+          }
+        ]
+      },
+      {
+        "title": "Corn Yield Prediction",
+        "category": "Agriculture",
+        "description": "Predicting corn yield with data science.",
+        "edition": "2024–2025",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2024-P6-CYF"
+          }
+        ]
+      },
+      {
+        "title": "Hybrid Random Forest and CNN Framework for Hyperspectral Oil-Water Classification",
+        "category": "Remote sensing",
+        "description": "A random forest and CNN framework for hyperspectral oil–water classification.",
+        "edition": "2024–2025",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2024-P7-HSI"
+          }
+        ]
+      },
+      {
+        "title": "Multilabel and binary classification to filter Patient preference Studies",
+        "category": "Health",
+        "description": "Binary and multilabel classification for patient preference studies.",
+        "edition": "2024–2025",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2024-P8-PPS"
+          }
+        ]
+      },
+      {
+        "title": "Improving Retrieval Performance in Retrieval-Augmented Generation Architecture",
+        "category": "Language models",
+        "description": "Improving retrieval performance in a RAG architecture.",
+        "edition": "2024–2025",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2024-P9-RAG-MARCO"
+          }
+        ]
+      },
+      {
+        "title": "Retrieval-Augmented Generation in a Low Lexical Diversity Scenario",
+        "category": "Language models",
+        "description": "Retrieval-augmented generation in a low lexical diversity scenario.",
+        "edition": "2024–2025",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2024-P10-RAG-GAS"
+          }
+        ]
+      },
+      {
+        "title": "Oil Spill Detection on SAR Images: Comparative Analysis of Five Segmentation Models",
+        "category": "Remote sensing",
+        "description": "Comparing five segmentation models for oil spill detection in SAR images.",
+        "edition": "2024–2025",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2024-P11-SAR"
+          }
+        ]
+      },
+      {
+        "title": "Transformer-Based Time-to-Failure prediction for plane engine with NASA C-MAPSS multivariate timeseries",
+        "category": "Predictive maintenance",
+        "description": "Transformer-based engine time-to-failure prediction using NASA C-MAPSS time series.",
+        "edition": "2024–2025",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2024-P12-TTF"
+          }
+        ]
+      },
+      {
+        "title": "Leveraging Large Language Models for Marketing Analytics",
+        "category": "Marketing",
+        "description": "Exploring large language models for marketing analytics.",
+        "edition": "2024–2025",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2024-P14-IPL"
+          }
+        ]
+      }
+    ],
+    "team": [
+      {
+        "name": "Giuseppe Rizzo",
+        "role": "Course lead · AI & data science",
+        "initials": "GR"
+      },
+      {
+        "name": "Antonella Frisiello",
+        "role": "Service design & UX",
+        "initials": "AF"
+      },
+      {
+        "name": "Giuseppe Tipaldo",
+        "role": "Communication",
+        "initials": "GT"
+      },
+      {
+        "name": "Alessandro Fiori",
+        "role": "Project assistant",
+        "initials": "AF"
+      },
+      {
+        "name": "Federico D’Asaro",
+        "role": "Project assistant",
+        "initials": "FD"
+      },
+      {
+        "name": "Luca Barco",
+        "role": "Project assistant",
+        "initials": "LB"
+      },
+      {
+        "name": "Bartolomeo Vacchetti",
+        "role": "Project assistant",
+        "initials": "BV"
+      }
+    ],
+    "lecture_hours": 30,
+    "lab_hours": 90
+  },
+  "2023": {
+    "year": "2023",
+    "academic_year": "2023–2024",
+    "path": "/2023/",
+    "code": "01TXXSM",
+    "current": false,
+    "outcomes": [
+      "Knowledge of first-hand computational tools to address data science projects",
+      "Knowledge of the design best practices and tools",
+      "Knowledge of management strategies and tools",
+      "Knowledge of communication tools and skills",
+      "Knowledge of the solution impact",
+      "Hands on experience with a real data science project offered by companies and research institutes"
+    ],
+    "prerequisites": [
+      "Statistics",
+      "Data mining",
+      "Machine learning and deep learning",
+      "Python language",
+      "Relational, NoSQL, graph databases (non mandatory)"
+    ],
+    "books": [
+      "Machine Learning Yearning, by Andrew Ng",
+      "Data Science from Scratch, Joel Grus",
+      "Harvard Business Review Project Management Handbook: How to Launch, Lead, and Sponsor Successful Projects, by Antonio Nieto-Rodriguez",
+      "Oxford Guide to Effective Writing and Speaking: How to Communicate Clearly, by John Seely",
+      "The Design of Everyday Things: Revised and Expanded Edition, by Donald Norman",
+      "Noessel C. Designing Agentive Technology. AI That Works for People. Rosenfeld, 2013"
+    ],
+    "structure": "The course is structured in three folds: \n- Introduction to the concepts to perform a project\n- Introduction to the tools to put in place the concepts\n- Laboratory sessions for the execution of the projects and meetups with the company key resources (project managers and project leaders) to - successfully execute the assigned projects.",
+    "lectures": [
+      {
+        "title": "Building an AI solution with a data science approach",
+        "pillar": "overview",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L01%20-%20ADSP%20-%20Intro.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Data science project pillars and tips",
+        "pillar": "overview",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L02%20-%20ADSP%20-%20Pillars.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Model- and data-centric projects",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L03%20-%20ADSP%20-%20Model_Data-centric%20projects.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Foundation models",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L04%20-%20ADSP%20-%20Foundation%20models.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Transfer learning and domain adaptation",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L05%20-%20ADSP%20-%20Transfer%20learning%20and%20domain%20adaptation.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Project impact and Sustainable Development Goals",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L06%20-%20ADSP%20-%20SGDs%20and%20data%20science%20project%20examples.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Artificial intelligence ethics",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L10%20-%20ADSP%20-%20AI%20Ethics.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Human-centred design",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L16%20-%20ADSP%20-%20HCD%20Introduction.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Stakeholder maps",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L17%20-%20ADSP%20-%20HCD%20Stakeholders%20map.pdf"
+          }
+        ]
+      },
+      {
+        "title": "User personas",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L18%20-%20ADSP%20-%20HCD%20Personas.pdf"
+          }
+        ]
+      },
+      {
+        "title": "User–data journeys",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L19%20-%20ADSP%20-%20HCD%20User-Data%20journey.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Social research methodology",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L20%20-%20ADSP%20-%20Social%20Research%20Methodology.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Colaboratory",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L09%20-%20ADSP%20-%20Colaboratory.pdf"
+          },
+          {
+            "label": "Notebook",
+            "url": "/2023/L09%20-%20IMDb%20Sentiment%20Analysis.ipynb"
+          }
+        ]
+      },
+      {
+        "title": "Foundation models: hub and examples",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L11%20-%20ADSP%20-%20Hub%20of%20%28foundation%29%20models.pdf"
+          },
+          {
+            "label": "Notebook",
+            "url": "/2023/L11%20-%20ADSP%20-%20BERT%20Masking%20and%20NER.ipynb"
+          }
+        ]
+      },
+      {
+        "title": "Version control",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L12%20-%20ADSP%20-%20Version%20Control.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Team communication",
+        "pillar": "communicate",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L13%20-%20ADSP%20-%20Team%20communication.pdf"
+          }
+        ]
+      },
+      {
+        "title": "WBS, work packages, tasks, milestones and Gantt",
+        "pillar": "manage",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L08%20-%20ADSP%20-%20WBS%20and%20Gantt.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Presentations",
+        "pillar": "communicate",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L14%20-%20ADSP%20-%20Slides.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Papers and deliverables",
+        "pillar": "communicate",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L15%20-%20ADSP%20-%20Report.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Reaching the general public",
+        "pillar": "communicate",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L21%20-%20ADSP%20-%20Outreaching%20public.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Success stories",
+        "pillar": "overview",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L22%20-%20ADSP%20-%20Success%20stories.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Project proposals",
+        "pillar": "overview",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2023/L23%20-%20ADSP%20-%20Project%20proposals.pdf"
+          }
+        ]
+      }
+    ],
+    "labs": [],
+    "projects": [],
+    "team": [
+      {
+        "name": "Giuseppe Rizzo",
+        "role": "Course lead · AI & data science",
+        "initials": "GR"
+      },
+      {
+        "name": "Antonella Frisiello",
+        "role": "Service design & UX",
+        "initials": "AF"
+      },
+      {
+        "name": "Giuseppe Tipaldo",
+        "role": "Communication",
+        "initials": "GT"
+      },
+      {
+        "name": "Alessandro Fiori",
+        "role": "Teaching assistant",
+        "initials": "AF"
+      },
+      {
+        "name": "Edoardo Arnaudo",
+        "role": "Teaching assistant",
+        "initials": "EA"
+      },
+      {
+        "name": "Bartolomeo Vacchetti",
+        "role": "Teaching assistant",
+        "initials": "BV"
+      }
+    ]
+  },
+  "2022": {
+    "year": "2022",
+    "academic_year": "2022–2023",
+    "path": "/2022/",
+    "code": "01TXXSM",
+    "current": false,
+    "outcomes": [
+      "Knowledge of first-hand computational tools to address Data Science projects",
+      "Knowledge of management strategies and tools",
+      "Knowledge of communication tools and skills",
+      "Knowledge of the best-practices for value-oriented project setup and execution",
+      "Hands on experience with a real data science project offered by companies or research institutes"
+    ],
+    "prerequisites": [
+      "Statistics",
+      "Data mining",
+      "Machine learning and deep learning",
+      "Python language",
+      "Relational, NoSQL, graph databases"
+    ],
+    "books": [],
+    "structure": "The course includes practices on the lecture topics, laboratory sessions for the execution of the projects, and meetups with the company key resources (project managers and project leaders) to successfully execute the assigned projects.",
+    "lectures": [
+      {
+        "title": "Introduction",
+        "pillar": "overview",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2022/L01%20-%20ADSP%20-%20Intro.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Data science project pillars",
+        "pillar": "overview",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2022/L02%20-%20ADSP%20-%20Pillars.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Model- and data-centric projects",
+        "pillar": "develop",
+        "links": []
+      },
+      {
+        "title": "Foundation models",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2022/L04%20-%20ADSP%20-%20Foundation%20models.pdf"
+          }
+        ]
+      },
+      {
+        "title": "10 practical tips",
+        "pillar": "overview",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2022/L05%20-%20ADSP%20-%2010%20practical%20tips.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Sustainable Development Goals and data science examples",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2022/L06%20-%20ADSP%20-%20SGDs%20and%20data%20science%20project%20examples.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Human-centred design",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2022/L07%20-%20ADSP%20HCD%20Intro.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Stakeholder maps",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2022/L08%20L09%20-%20ADSP%20HCD%20Stakeholders%20map.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Personas",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2022/L14%20-%20ADSP%20HCD%20Personas.pdf"
+          }
+        ]
+      },
+      {
+        "title": "User journeys",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2022/L18%2019%20-%20ADSP%20HCD%20journey.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Project management tools: WBS and Gantt",
+        "pillar": "manage",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2022/L11%20-%20ADSP%20-%20WBS%20and%20Gantt.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Functional requirements and diagrams",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2022/L10%20-%20ADSP%20-%20Functional%20requirements%20and%20diagram.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Program development with Colaboratory",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2022/L12%20-%20ADSP%20-%20Colaboratory.pdf"
+          },
+          {
+            "label": "Notebook",
+            "url": "/2022/L12%20-%20IMDb%20Sentiment%20Analysis.ipynb"
+          }
+        ]
+      },
+      {
+        "title": "Foundation models: hub and examples",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2022/L13%20-%20ADSP%20-%20Foundation%20models%20-%20hub%20and%20examples.pdf"
+          },
+          {
+            "label": "Notebook",
+            "url": "/2022/L13%20-%20ADSP%20-%20BERT%20Masking%20and%20NER.ipynb"
+          }
+        ]
+      },
+      {
+        "title": "Version control",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2022/L15%20-%20ADSP%20-%20Version%20Control.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Internal team communication",
+        "pillar": "communicate",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2022/L16%20-%20ADSP%20-%20Team%20communication.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Presentations",
+        "pillar": "communicate",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2022/L17%20-%20ADSP%20-%20Slides.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Reports",
+        "pillar": "communicate",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2022/L20%20-%20ADSP%20-%20Report.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Success stories",
+        "pillar": "overview",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2022/L21%20-%20ADSP%20-%20Success%20stories.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Project proposals",
+        "pillar": "overview",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2022/L22%20-%20ADSP%20-%20Project%20proposals.pdf"
+          }
+        ]
+      }
+    ],
+    "labs": [],
+    "projects": [],
+    "team": [
+      {
+        "name": "Giuseppe Rizzo",
+        "role": "Course lead",
+        "initials": "GR"
+      },
+      {
+        "name": "Marco Torchiano",
+        "role": "Professor",
+        "initials": "MT"
+      },
+      {
+        "name": "Alberto Benincasa",
+        "role": "Teaching assistant",
+        "initials": "AB"
+      },
+      {
+        "name": "Luca Colomba",
+        "role": "Teaching assistant",
+        "initials": "LC"
+      },
+      {
+        "name": "Salvatore Greco",
+        "role": "Teaching assistant",
+        "initials": "SG"
+      }
+    ]
+  },
+  "2021": {
+    "year": "2021",
+    "academic_year": "2021–2022",
+    "path": "/2021/",
+    "code": "01TXXSM",
+    "current": false,
+    "outcomes": [
+      "Knowledge of first-hand computational tools to address Data Science projects",
+      "Knowledge of management strategies and tools",
+      "Knowledge of communication tools and skills",
+      "Knowledge of the best-practices for value-oriented project setup and execution",
+      "Hands on experience with a real data science project offered by companies or research institutes"
+    ],
+    "prerequisites": [
+      "Statistics",
+      "Data mining",
+      "Machine learning and deep learning",
+      "Python language",
+      "Relational, NoSQL, graph databases"
+    ],
+    "books": [],
+    "structure": "The course includes practices on the lecture topics, laboratory sessions for the execution of the projects, and meetups with the company key resources (project managers and project leaders) to successfully execute the assigned projects.",
+    "lectures": [
+      {
+        "title": "Introduction",
+        "pillar": "overview",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2021/L1%20-%20ADSP%20-%20Intro.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Model- and data-centric projects",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2021/L2%20-%20ADSP%20-%20Model%20%26%20Data-centric%20projects.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Foundation models",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2021/L3%20-%20ADSP%20-%20Foundation%20models.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Sustainable Development Goals and data science examples",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2021/L4%20-%20ADSP%20-%20SGDs%20and%20data%20science%20project%20examples.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Data science project pillars",
+        "pillar": "overview",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2021/L5%20-%20ADSP%20-%20Pillars.pdf"
+          }
+        ]
+      },
+      {
+        "title": "10 practical tips",
+        "pillar": "overview",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2021/L6%20-%20ADSP%20-%2010%20practical%20tips.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Persona canvas and functional diagrams",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2021/L7%20-%20ADSP%20-%20Project%20design%20tools.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Agile software development",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2021/L8%20-%20ADSP%20-%20AgileSwDev.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Scrum",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2021/L10%20-%20ADSP%20-%20Scrum.pdf"
+          },
+          {
+            "label": "Example",
+            "url": "/2021/OfficeQueueManagement.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Project management tools",
+        "pillar": "manage",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2021/L9%20-%20ADSP%20-%20Project%20management%20tools.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Program development",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2021/L11%20-%20ADSP%20-%20Project%20development%20tools%20I.pdf"
+          },
+          {
+            "label": "Notebook",
+            "url": "/2021/Simple%20Sentiment%20Analysis.ipynb"
+          }
+        ]
+      },
+      {
+        "title": "Version control",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2021/L12%20-%20ADSP%20-%20Project%20development%20tools%20II.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Internal team communication",
+        "pillar": "communicate",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2021/L13%20-%20ADSP%20-%20Project%20development%20tools%20III.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Presentations",
+        "pillar": "communicate",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2021/L16%20-%20ADSP%20-%20Project%20communication%20tools%20I.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Technical papers",
+        "pillar": "communicate",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2021/L17%20-%20ADSP%20-%20Project%20communication%20tools%20II.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Deliverables",
+        "pillar": "communicate",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2021/L18%20-%20ADSP%20-%20Project%20communication%20tools%20III.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Success stories",
+        "pillar": "overview",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2021/L19%20-%20ADSP%20-%20Success%20stories.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Project proposals",
+        "pillar": "overview",
+        "links": []
+      }
+    ],
+    "labs": [],
+    "projects": [
+      {
+        "title": "Privacy Preserving Health Insurance Cross-sell Prediction",
+        "category": "Health & privacy",
+        "description": "A project proposed by Accenture Labs France.",
+        "edition": "2021–2022",
+        "links": [
+          {
+            "label": "Proposal",
+            "url": "/2021/projects/ADSP%20Accenture%20Labs.pdf"
+          },
+          {
+            "label": "Presentation",
+            "url": "/2021/projects/ADSP%20Acc%20Presentation.pdf"
+          },
+          {
+            "label": "Paper",
+            "url": "/2021/projects/ADSP%20Acc%20Paper.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Job Skill Recommendation",
+        "category": "Recommender systems",
+        "description": "A project proposed by INDA.",
+        "edition": "2021–2022",
+        "links": [
+          {
+            "label": "Proposal",
+            "url": "/2021/projects/ADSP%20INDA.pdf"
+          },
+          {
+            "label": "Presentation",
+            "url": "/2021/projects/ADSP%20INDA%20Presentation.pdf"
+          },
+          {
+            "label": "Paper",
+            "url": "/2021/projects/ADSP%20INDA%20Paper.pdf"
+          }
+        ]
+      }
+    ],
+    "team": [
+      {
+        "name": "Giuseppe Rizzo",
+        "role": "Course lead",
+        "initials": "GR"
+      },
+      {
+        "name": "Marco Torchiano",
+        "role": "Professor",
+        "initials": "MT"
+      },
+      {
+        "name": "Alberto Benincasa",
+        "role": "Teaching assistant",
+        "initials": "AB"
+      },
+      {
+        "name": "Luca Colomba",
+        "role": "Teaching assistant",
+        "initials": "LC"
+      },
+      {
+        "name": "Salvatore Greco",
+        "role": "Teaching assistant",
+        "initials": "SG"
+      }
+    ]
+  }
+}
