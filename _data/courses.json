@@ -147,7 +147,152 @@
         "duration": "40.5h"
       }
     ],
-    "projects": [],
+    "projects": [
+      {
+        "title": "HYPE: Topic Detection in Customer Reviews",
+        "category": "Language models",
+        "description": "Detecting and organizing topics in customer reviews with BERTopic and language models.",
+        "edition": "2025–2026",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2025-P1-Topic-detection"
+          }
+        ]
+      },
+      {
+        "title": "FPT Cost Brain: AI-Assisted R&D Cost Estimation",
+        "category": "Industrial AI",
+        "description": "Estimating product development costs from technical requests using machine learning and historical projects.",
+        "edition": "2025–2026",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2025-P2-Ball-Park-Quotation"
+          }
+        ]
+      },
+      {
+        "title": "Lavazza AI Personas for Consumer Insights",
+        "category": "Marketing",
+        "description": "Conversational AI personas grounded in customer segmentation research for market insights and idea validation.",
+        "edition": "2025–2026",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2025-P3-AI-Personas"
+          }
+        ]
+      },
+      {
+        "title": "ARTLM: Automated Artwork Metadata Generation",
+        "category": "Cultural heritage",
+        "description": "Generating structured artwork metadata from images with multimodal language models.",
+        "edition": "2025–2026",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2025-P4-Artwork-Metadata-Generation"
+          }
+        ]
+      },
+      {
+        "title": "DINOv3 for Damage Assessment",
+        "category": "Computer vision",
+        "description": "Exploring DINOv3 for automated damage assessment.",
+        "edition": "2025–2026",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2025-P5-DINOV3-Damage-Assessment"
+          }
+        ]
+      },
+      {
+        "title": "Multimodal Emotion Recognition with Audio-Language Models",
+        "category": "Multimodal AI",
+        "description": "Recognizing emotions from speech and transcripts with audio-language models and efficient fine-tuning.",
+        "edition": "2025–2026",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2025-P7-Multimodal-Emotion-Recognition"
+          }
+        ]
+      },
+      {
+        "title": "Multimodal Wildfire Burned Area Prediction",
+        "category": "Remote sensing",
+        "description": "Predicting wildfire burned areas from pre-fire satellite imagery, terrain, weather and infrastructure data.",
+        "edition": "2025–2026",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2025-P8-Fire-Ignition-Maps"
+          }
+        ]
+      },
+      {
+        "title": "Open-Vocabulary Semantic Segmentation for Remote Sensing",
+        "category": "Remote sensing",
+        "description": "Segmenting remote-sensing imagery using text queries and open-vocabulary models.",
+        "edition": "2025–2026",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2025-P9-Open-Vocabulary-Semantic-Segmentation"
+          }
+        ]
+      },
+      {
+        "title": "Ball and Player Tracking in Padel Matches",
+        "category": "Sports analytics",
+        "description": "Detecting players and the ball in padel videos to derive positional statistics and tactical insights.",
+        "edition": "2025–2026",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2025-P10-Ball-Player-Tracking-Padel"
+          }
+        ]
+      },
+      {
+        "title": "Unsupervised Energy Profile Analysis",
+        "category": "Energy analytics",
+        "description": "Exploring energy profiles with unsupervised learning.",
+        "edition": "2025–2026",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2025-P11-Unsupervised-Energy-Profile"
+          }
+        ]
+      },
+      {
+        "title": "Tactical Football Simulation with Reinforcement Learning",
+        "category": "Sports analytics",
+        "description": "Simulating offensive football scenarios with reinforcement learning agents and configurable tactical environments.",
+        "edition": "2025–2026",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2025-P12-RL-Footbal"
+          }
+        ]
+      },
+      {
+        "title": "Ontology Alignment with Natural Language Processing",
+        "category": "Knowledge representation",
+        "description": "Matching free-text attributes to ontology classes through candidate retrieval and cross-encoder scoring.",
+        "edition": "2025–2026",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/adsp-polito/2025-P13-Ontology-Alignment"
+          }
+        ]
+      }
+    ],
     "team": [
       {
         "name": "Giuseppe Rizzo",
