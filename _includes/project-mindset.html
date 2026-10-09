@@ -1,0 +1,34 @@
+{% if course.current %}
+<div class="project-model foundations-model" role="img" aria-label="Four foundations: Design leads to Develop, then Communicate. Manage supports all three throughout the project through planning, coordination, resources, key performance indicators (KPIs) and risk management.">
+  <div class="model-label"><span class="status-dot"></span>The project mindset · Four foundations</div>
+  <div class="foundation-canvas">
+    {% for foundation in site.data.foundations %}{% unless foundation.id == 'manage' %}
+    <div class="foundation-stage stage-{{ foundation.id }}">
+      <span class="foundation-number">{{ foundation.number }}</span>
+      {% include icon.html name=foundation.id %}
+      <strong>{{ foundation.name }}</strong>
+      <small>{{ foundation.summary }}</small>
+      {% unless foundation.id == 'communicate' %}<span class="foundation-arrow" aria-hidden="true">{% include icon.html name='arrow' %}</span>{% endunless %}
+    </div>
+    {% endunless %}{% endfor %}
+    <div class="foundation-base">
+      <div>{% include icon.html name='manage' %}<strong>Manage</strong><span>Across every stage</span></div>
+      <small>Planning · Coordination · Resources · KPIs · Risks</small>
+    </div>
+  </div>
+  <p>Design, develop and communicate. Manage throughout.</p>
+</div>
+{% else %}
+<div class="project-model" role="img" aria-label="An AI project connects four pillars: Design for people and purpose, Develop with data and models, Manage teams and milestones, Communicate results and impact.">
+  <div class="model-label"><span class="status-dot"></span>The project mindset</div>
+  <div class="model-canvas">
+    <svg class="model-connectors" viewBox="0 0 400 300" aria-hidden="true" focusable="false"><defs><marker id="arrowhead" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="currentColor"/></marker></defs><path d="M151 59H246M327 100V198M247 241H153M73 199V101" marker-end="url(#arrowhead)"/><path class="model-inner" d="M106 86L172 131M294 86L228 131M106 214L172 169M294 214L228 169"/></svg>
+    <div class="model-node node-design"><span class="node-number">01</span>{% include icon.html name='design' %}<strong>Design</strong><small>People & purpose</small></div>
+    <div class="model-node node-develop"><span class="node-number">02</span>{% include icon.html name='develop' %}<strong>Develop</strong><small>Data & models</small></div>
+    <div class="model-centre"><span>Your</span><strong>AI project</strong></div>
+    <div class="model-node node-manage"><span class="node-number">03</span>{% include icon.html name='manage' %}<strong>Manage</strong><small>Teams & milestones</small></div>
+    <div class="model-node node-communicate"><span class="node-number">04</span>{% include icon.html name='communicate' %}<strong>Communicate</strong><small>Results & impact</small></div>
+  </div>
+  <p>A real problem. Your team. An AI solution.</p>
+</div>
+{% endif %}
