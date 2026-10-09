@@ -1,0 +1,34 @@
+[
+  {
+    "id": "design",
+    "name": "Design",
+    "number": "01",
+    "question": "Start with people.",
+    "summary": "User needs & requirements",
+    "description": "Understand user needs, define the problem, identify stakeholders and set clear requirements."
+  },
+  {
+    "id": "develop",
+    "name": "Develop",
+    "number": "02",
+    "question": "Build and validate.",
+    "summary": "Data, models & validation",
+    "description": "Work with data and models, implement the solution, then test and validate it against the requirements."
+  },
+  {
+    "id": "communicate",
+    "name": "Communicate",
+    "number": "03",
+    "question": "Make the impact clear.",
+    "summary": "Results & impact",
+    "description": "Explain the results and their impact through clear technical and scientific communication."
+  },
+  {
+    "id": "manage",
+    "name": "Manage",
+    "number": "04",
+    "question": "Support every stage.",
+    "summary": "Planning · Coordination · Resources · KPIs · Risks",
+    "description": "Plan the project, coordinate people and resources, track key performance indicators (KPIs) and manage risks across Design, Develop and Communicate."
+  }
+]

@@ -9,7 +9,9 @@ The site uses GitHub Pages and Jekyll with a shared layout. There is no JavaScri
 | Each edition’s overview | `README.md` or `2021/README.md` through `2024/README.md` |
 | Lecture topics, file links, projects, readings, learning outcomes and teaching teams | `_data/courses.json` |
 | Edition selector and archive links | `_data/editions.json` |
-| Four pillar descriptions | `_data/pillars.json` |
+| Current edition’s four foundation descriptions | `_data/foundations.json` |
+| Archived editions’ four pillar descriptions | `_data/pillars.json` |
+| Current and archived project mindset diagrams | `_includes/project-mindset.html` |
 | Selected archive projects shown on pages without their own project list | `_data/showcase.json` |
 | Page structure | `_layouts/course.html` |
 | Navigation, footer and project cards | `_includes/` |
@@ -17,6 +19,8 @@ The site uses GitHub Pages and Jekyll with a shared layout. There is no JavaScri
 | Search, filters and mobile navigation | `assets/js/site.js` |
 
 JSON keys for editions are strings, such as `"2025"`. The homepage remains the published 2025–2026 edition; a future academic year can be added separately. Hours and credits appear only where the original edition supplies them.
+
+The 2025–2026 mindset uses Design → Develop → Communicate, with Manage spanning all three through planning, coordination, resources, KPIs and risks. The hero diagram, learning path and lecture filter labels use this foundation model for the current edition. Earlier editions retain their four-pillar framework. The lecture data’s `pillar` key remains compatible with both frameworks.
 
 ## Add a lecture download
 
