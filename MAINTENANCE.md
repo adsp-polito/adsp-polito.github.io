@@ -24,20 +24,22 @@ The 2025–2026 mindset uses Design → Develop → Communicate, with Manage spa
 
 ## Add a lecture download
 
+The 2025–2026 materials live in `2025/`: 27 PDF slide decks and 10 Jupyter notebooks, grouped under lecture codes L01–L27 in `_data/courses.json`. The `code` field preserves the uploaded numbering when filtering or adding multiple resources. L15 includes both the VLM transfer-learning and version-control decks; L22 has a notebook only. Keep the L07 and L08 IMDb notebooks at their respective paths, even though their contents match.
+
 Upload the PDF or notebook into its edition’s existing folder, then add a link to the lecture entry in `_data/courses.json`. Use the existing filename and URL-encode spaces and punctuation:
 
 ```json
 {
+  "code": "L05",
   "title": "Foundation models",
   "pillar": "develop",
-  "duration": "1.5h",
   "links": [
-    { "label": "Slides", "url": "/2025/Foundation%20models.pdf" }
+    { "label": "Slides", "url": "/2025/L05%20-%20ADSP%20-%20Foundation%20models.pdf", "type": "slides" }
   ]
 }
 ```
 
-The example path illustrates the format; upload the actual file before using its URL. Supported pillar values are `overview`, `design`, `develop`, `manage` and `communicate`. Leave `links` empty for a topic whose materials are unavailable. The website remains fully readable with JavaScript disabled.
+Use `type: "notebook"` for a notebook download, and a distinct label and `title` for each resource when a lecture has several files. Update the edition’s `material_counts` totals when adding materials. Supported pillar values are `overview`, `design`, `develop`, `manage` and `communicate`. Leave `links` empty for a topic whose materials are unavailable. The website remains fully readable with JavaScript disabled.
 
 ## Local preview
 
@@ -56,6 +58,6 @@ The homepage, `/2021/`, `/2022/`, `/2023/` and `/2024/` retain their paths. PDFs
 
 Several old lecture links have been repaired to match files that already exist in the repository, including the 2021 model/data-centric slides, 2022 human-centred design slides and sentiment-analysis notebook. The 2024 public-communication entry now links to Giuseppe Tipaldo’s existing social-research and communication slides.
 
-The 2022 model/data-centric slide file referenced in the old page is absent from the repository. That topic remains visible with “Slides unavailable”. The published 2025–2026 homepage contains no slide downloads; its listed topics remain visible while links can be added as material becomes available.
+The 2022 model/data-centric slide file referenced in the old page is absent from the repository. That topic remains visible with “Slides unavailable”. The 2025–2026 homepage indexes all 37 materials supplied in the two batches, using the uploaded filenames to determine lecture order even when a PDF cover has an older lecture number.
 
 Fonts are served locally. Their SIL Open Font License notices are included in `assets/fonts/`.

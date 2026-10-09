@@ -32,95 +32,430 @@
     "structure": "The course is structured in three folds: \n- Introduction to the concepts to perform a project\n- Introduction to the tools to put in place the concepts\n- Laboratory sessions for the execution of the projects and meetups with the company key resources (project managers and project leaders) to - successfully execute the assigned projects.",
     "lectures": [
       {
-        "title": "Building an artificial intelligence application",
+        "code": "L01",
+        "title": "Introduction",
         "pillar": "overview",
-        "links": [],
-        "duration": "1.5h"
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L01%20-%20ADSP%20-%20Intro.pdf",
+            "type": "slides",
+            "title": "Introduction"
+          }
+        ],
+        "description": "Course objectives, activities and the applied data science project."
       },
       {
-        "title": "Introduction to the four project pillars",
+        "code": "L02",
+        "title": "Project mindset",
         "pillar": "overview",
-        "links": [],
-        "duration": "1.5h",
-        "description": "Design, development, management and communication."
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L02%20-%20ADSP%20-%20Pillars.pdf",
+            "type": "slides",
+            "title": "Project mindset"
+          }
+        ],
+        "description": "Design, develop and communicate, with Manage supporting the whole project."
       },
       {
+        "code": "L03",
+        "title": "WBS and Gantt",
+        "pillar": "manage",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L03%20-%20ADSP%20-%20WBS%20and%20Gantt%281%29.pdf",
+            "type": "slides",
+            "title": "WBS and Gantt"
+          }
+        ],
+        "description": "Work breakdown structures, tasks, milestones and project planning."
+      },
+      {
+        "code": "L04",
         "title": "Model- and data-centric projects",
         "pillar": "develop",
-        "links": [],
-        "duration": "1.5h"
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L04%20-%20ADSP%20-%20Model_Data-centric%20projects.pdf",
+            "type": "slides",
+            "title": "Model- and data-centric projects"
+          }
+        ]
       },
       {
+        "code": "L05",
         "title": "Foundation models",
         "pillar": "develop",
-        "links": [],
-        "duration": "1.5h"
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L05%20-%20ADSP%20-%20Foundation%20models.pdf",
+            "type": "slides",
+            "title": "Foundation models"
+          }
+        ]
       },
       {
+        "code": "L06",
+        "title": "Hub of foundation models",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L06%20-%20ADSP%20-%20Hub%20of%20%28foundation%29%20models.pdf",
+            "type": "slides",
+            "title": "Hub of foundation models"
+          },
+          {
+            "label": "Notebook",
+            "url": "/2025/L06%20-%20ADSP%20-%20BERT%20Masking%20and%20NER.ipynb",
+            "type": "notebook",
+            "title": "BERT masking and named-entity recognition"
+          }
+        ],
+        "description": "Hugging Face models, BERT masking and named-entity recognition."
+      },
+      {
+        "code": "L07",
+        "title": "Large language models",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L07%20-%20ADSP%20-%20Large%20Language%20Models.pdf",
+            "type": "slides",
+            "title": "Large language models"
+          },
+          {
+            "label": "BERT notebook",
+            "url": "/2025/L07%20-%20ADSP%20-%20BERT_%26_Text_similarity.ipynb",
+            "type": "notebook",
+            "title": "BERT text similarity"
+          },
+          {
+            "label": "IMDb notebook",
+            "url": "/2025/L07%20-%20ADSP%20-%20IMDb%20Sentiment%20Analysis.ipynb",
+            "type": "notebook",
+            "title": "IMDb sentiment analysis"
+          }
+        ],
+        "description": "BERT text similarity and IMDb sentiment analysis notebooks."
+      },
+      {
+        "code": "L08",
+        "title": "Transfer learning and domain adaptation",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L08%20-%20ADSP%20-%20Transfer%20learning%20and%20domain%20adaptation.pdf",
+            "type": "slides",
+            "title": "Transfer learning and domain adaptation"
+          },
+          {
+            "label": "Notebook",
+            "url": "/2025/L08%20-%20ADSP%20-%20IMDb%20Sentiment%20Analysis.ipynb",
+            "type": "notebook",
+            "title": "IMDb sentiment analysis"
+          }
+        ],
+        "description": "Adapting models to downstream tasks, with IMDb sentiment analysis."
+      },
+      {
+        "code": "L09",
+        "title": "PyTorch Lightning",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L09%20-%20ADSP%20-%20Pytorch%20Lightning.pdf",
+            "type": "slides",
+            "title": "PyTorch Lightning"
+          },
+          {
+            "label": "Notebook",
+            "url": "/2025/L09%20-%20ADSP%20-%20Pytorch%20vs%20Lightning.ipynb",
+            "type": "notebook",
+            "title": "PyTorch versus Lightning"
+          }
+        ],
+        "description": "Compare model training with PyTorch and Lightning."
+      },
+      {
+        "code": "L10",
+        "title": "Earth observation meets AI: introduction",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L10%20-%20ADSP%20-%20EO%20Meets%20AI%20Introduction.pdf",
+            "type": "slides",
+            "title": "Earth observation meets AI: introduction"
+          }
+        ],
+        "description": "An introduction to remote sensing and Earth observation."
+      },
+      {
+        "code": "L11",
         "title": "Retrieval-augmented generation",
         "pillar": "develop",
-        "links": [],
-        "duration": "1.5h"
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L11%20-%20ADSP%20-%20Retrieval%20augumented%20generation.pdf",
+            "type": "slides",
+            "title": "Retrieval-augmented generation"
+          }
+        ]
       },
       {
+        "code": "L12",
+        "title": "Colaboratory",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L12%20-%20ADSP%20-%20Colaboratory.pdf",
+            "type": "slides",
+            "title": "Colaboratory"
+          }
+        ]
+      },
+      {
+        "code": "L13",
+        "title": "Earth observation meets AI: foundation models and tools",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L13%20-%20ADSP%20-%20EO%20Meets%20AI%20-%20FM%20and%20Tools.pdf",
+            "type": "slides",
+            "title": "Earth observation meets AI: foundation models and tools"
+          },
+          {
+            "label": "TerraTorch notebook",
+            "url": "/2025/L13%20-%20ADSP%20-%20Terratorch.ipynb",
+            "type": "notebook",
+            "title": "TerraTorch"
+          },
+          {
+            "label": "TorchGeo notebook",
+            "url": "/2025/L13%20-%20ADSP%20-%20TorchGeo.ipynb",
+            "type": "notebook",
+            "title": "TorchGeo"
+          }
+        ],
+        "description": "Geospatial modelling with TerraTorch and TorchGeo notebooks."
+      },
+      {
+        "code": "L14",
+        "title": "Vision-language models",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L14%20-%20ADSP%20-%20Vision%20Language%20Models.pdf",
+            "type": "slides",
+            "title": "Vision-language models"
+          },
+          {
+            "label": "Notebook",
+            "url": "/2025/L14%20-%20ADSP%20-%20Zero-Shot%20VLMs.ipynb",
+            "type": "notebook",
+            "title": "Zero-shot vision-language models with CLIP"
+          }
+        ],
+        "description": "CLIP embeddings, zero-shot classification and cross-modal retrieval."
+      },
+      {
+        "code": "L15",
+        "title": "Transfer learning with VLMs and version control",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "VLM slides",
+            "url": "/2025/L15%20-%20ADSP%20-%20Transfer%20Learning%20with%20VLMs.pdf",
+            "type": "slides",
+            "title": "Transfer learning with vision-language models"
+          },
+          {
+            "label": "Git slides",
+            "url": "/2025/L15%20-%20ADSP%20-%20Version%20Control.pdf",
+            "type": "slides",
+            "title": "Version control"
+          },
+          {
+            "label": "Notebook",
+            "url": "/2025/L15%20-%20ADSP%20-%20PEFT%20VLMs.ipynb",
+            "type": "notebook",
+            "title": "Parameter-efficient fine-tuning of vision-language models"
+          }
+        ],
+        "description": "Two slide decks: VLM adaptation and Git. PEFT and LoRA practice in the notebook."
+      },
+      {
+        "code": "L16",
+        "title": "Multimodal large language models",
+        "pillar": "develop",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L16%20-%20ADSP%20-%20Multimodal%20Large%20Language%20Models.pdf",
+            "type": "slides",
+            "title": "Multimodal large language models"
+          }
+        ]
+      },
+      {
+        "code": "L17",
         "title": "Artificial intelligence ethics",
         "pillar": "design",
-        "links": [],
-        "duration": "1.5h"
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L17%20-%20ADSP%20-%20AI%20Ethics.pdf",
+            "type": "slides",
+            "title": "Artificial intelligence ethics"
+          }
+        ]
       },
       {
-        "title": "Project impact and Sustainable Development Goals",
-        "pillar": "design",
-        "links": [],
-        "duration": "1.5h"
-      },
-      {
-        "title": "Project tools",
+        "code": "L18",
+        "title": "Project proposals",
         "pillar": "overview",
-        "links": [],
-        "duration": "14h",
-        "description": "Practical tools for each of the four pillars."
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L18%20-%20ADSP%20-%20Project%20proposals.pdf",
+            "type": "slides",
+            "title": "Project proposals"
+          }
+        ]
       },
       {
-        "title": "User personas, stakeholder maps and functional requirements",
+        "code": "L19",
+        "title": "Human-centred design: introduction",
         "pillar": "design",
-        "links": []
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L19%20-%20ADSP%20-%20Human%20centred%20Design%20intro.pdf",
+            "type": "slides",
+            "title": "Human-centred design: introduction"
+          }
+        ],
+        "description": "Principles and tools for designing around people."
       },
       {
-        "title": "Large language models and vision-language models",
+        "code": "L20",
+        "title": "Human-centred design: stakeholder mapping",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L20%20-%20ADSP%20-%20HCD%20Stakeholders%20map.pdf",
+            "type": "slides",
+            "title": "Human-centred design: stakeholder mapping"
+          }
+        ]
+      },
+      {
+        "code": "L21",
+        "title": "Functional requirements and diagrams",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L21%20-%20ADSP%20-%20Functional%20requirements%20and%20diagram.pdf",
+            "type": "slides",
+            "title": "Functional requirements and diagrams"
+          }
+        ]
+      },
+      {
+        "code": "L22",
+        "title": "Zero-shot multimodal large language models",
         "pillar": "develop",
-        "links": []
+        "links": [
+          {
+            "label": "Notebook",
+            "url": "/2025/L22%20-%20ADSP%20-%20Zero-Shot%20MLLMs.ipynb",
+            "type": "notebook",
+            "title": "Zero-shot multimodal tasks with BLIP-2"
+          }
+        ],
+        "description": "BLIP-2 image captioning, visual question answering and classification."
       },
       {
-        "title": "Domain adaptation and downstream tasks",
+        "code": "L23",
+        "title": "Human-centred design: personas, HMW and value propositions",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L23%20-%20ADSP%20-%20HCD%20Personas%20-%20HMW%20-%20VP.pdf",
+            "type": "slides",
+            "title": "Human-centred design: personas, HMW and value propositions"
+          }
+        ],
+        "description": "User personas, How Might We questions and value propositions."
+      },
+      {
+        "code": "L24",
+        "title": "Agents with Ollama and LangGraph",
         "pillar": "develop",
-        "links": []
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L24%20-%20ADSP%20-%20Agents.pdf",
+            "type": "slides",
+            "title": "Agents with Ollama and LangGraph"
+          }
+        ]
       },
       {
-        "title": "Retrieval-augmented generation implementation",
-        "pillar": "develop",
-        "links": []
+        "code": "L25",
+        "title": "Sustainable Development Goals and project examples",
+        "pillar": "design",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L25%20-%20ADSP%20-%20SDGs%20and%20data%20science%20project%20examples.pdf",
+            "type": "slides",
+            "title": "Sustainable Development Goals and project examples"
+          }
+        ],
+        "description": "Project impact, targets, indicators and data science applications."
       },
       {
-        "title": "Version control and testing",
-        "pillar": "develop",
-        "links": []
-      },
-      {
-        "title": "Gantt, WBS, work packages, tasks and milestones",
-        "pillar": "manage",
-        "links": []
-      },
-      {
-        "title": "Presentations, technical papers and deliverables",
+        "code": "L26",
+        "title": "Slides and project presentations",
         "pillar": "communicate",
-        "links": []
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L26%20-%20ADSP%20-%20Slides.pdf",
+            "type": "slides",
+            "title": "Slides and project presentations"
+          }
+        ]
       },
       {
-        "title": "Success stories of past projects",
-        "pillar": "overview",
-        "links": [],
-        "duration": "1.5h"
+        "code": "L27",
+        "title": "Reports: papers and deliverables",
+        "pillar": "communicate",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "/2025/L27%20-%20ADSP%20-%20Report.pdf",
+            "type": "slides",
+            "title": "Reports: papers and deliverables"
+          }
+        ]
       }
     ],
     "labs": [
@@ -322,7 +657,11 @@
     ],
     "credits": 8,
     "lecture_hours": 26,
-    "lab_hours": 54
+    "lab_hours": 54,
+    "material_counts": {
+      "slides": 27,
+      "notebooks": 10
+    }
   },
   "2024": {
     "year": "2024",

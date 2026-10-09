@@ -207,6 +207,7 @@ summary::-webkit-details-marker{display:none}
 .resource-links a{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:600;color:var(--teal-dark);white-space:nowrap}
 .resource-links a:hover{text-decoration:underline;text-underline-offset:4px}
 .resource-links .icon{width:12px;height:12px}
+.resource-row-numbered .resource-links{flex-direction:column;align-items:flex-end;gap:7px}
 .resource-pending{font-size:10px;color:#68788b;white-space:nowrap}
 .no-results{padding:55px 24px;text-align:center}
 .no-results h3{margin-bottom:10px}.no-results p{font-size:12px;color:var(--muted);margin-bottom:16px}
@@ -310,6 +311,7 @@ summary::-webkit-details-marker{display:none}
   .project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.team-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   .resource-tools{gap:15px}.search-box{width:100%}.filter-tabs{gap:3px}.filter-tabs button{padding:8px 10px}
   .resource-row{grid-template-columns:20px minmax(0,1fr) 115px;gap:14px}.resource-meta{grid-column:2;grid-row:auto}.resource-links{grid-column:3;grid-row:1/3;align-self:center;flex-direction:column;align-items:flex-end;gap:7px}.resource-number{grid-row:1/3}.resource-title{grid-column:2}.resource-row{position:relative;row-gap:7px}.resource-title h3{font-size:13px}.resource-meta .pillar-tag{font-size:10px}.resource-duration{font-size:10px}
+  .resource-row-numbered{grid-template-columns:26px minmax(0,1fr)}.resource-row-numbered .resource-number{grid-row:1/4}.resource-row-numbered .resource-links{grid-column:2;grid-row:3;flex-direction:row;justify-content:flex-start;align-items:center;gap:8px 18px;margin-top:3px}
   .lab-block{gap:35px;grid-template-columns:1fr 1.6fr}.lab-block h3{font-size:23px}.resources-grid{gap:40px;grid-template-columns:1fr 1.3fr}
   .editions-inner{gap:30px;grid-template-columns:1fr 1.4fr}.editions-inner h2{font-size:23px}
 }
@@ -332,6 +334,7 @@ summary::-webkit-details-marker{display:none}
   .pillar-grid{gap:12px}.pillar-card{padding:20px 17px}.pillar-card h3{font-size:22px}.pillar-top{margin-bottom:22px}.pillar-icon{width:35px;height:35px}.pillar-icon .icon{width:20px;height:20px}.pillar-number{font-size:8px}.pillar-card>strong{font-size:11px;line-height:1.5}.pillar-card>p{font-size:12px;line-height:1.9;margin-bottom:20px}.pillar-link{font-size:10px;gap:4px}.pillar-link .icon{width:14px;height:14px}
   .resource-note{font-size:11px;margin-top:-8px}.filter-tabs{row-gap:6px}.filter-tabs button{font-size:11px;padding:7px 10px;min-height:40px}.resource-tools{margin-bottom:17px}.search-box{padding:7px 11px;min-width:0;min-height:44px}.search-box input{font-size:16px}
   .library-caption{padding:13px 16px;font-size:9px}.resource-row{padding:17px 16px;grid-template-columns:16px minmax(0,1fr) 72px;column-gap:10px}.resource-number{font-size:9px}.resource-title h3{font-size:13px}.resource-title p{font-size:11px}.resource-links a{font-size:11px;min-height:40px}.resource-links .icon{height:11px;width:11px}.resource-pending{font-size:10px;white-space:normal;text-align:right;line-height:1.5}.resource-meta{gap:8px}
+  .resource-row-numbered{grid-template-columns:24px minmax(0,1fr)}.resource-row-numbered .resource-links{gap:0 16px}
   .lab-block{grid-template-columns:1fr;gap:23px;margin-top:35px;padding-top:30px}.lab-block>div>p{font-size:11px}.lab-block>div>p br{display:none}.lab-block li>div strong{font-size:11px}.lab-block li>div p{font-size:9px}.lab-summary{padding:21px 18px;gap:13px}.lab-summary h3{font-size:16px}.lab-summary p{font-size:10px}
   .project-grid{grid-template-columns:1fr;gap:13px}.project-card{padding:21px 18px;min-height:250px}.project-card h3{font-size:17px}.project-meta{display:block;font-size:8px;line-height:1.7;margin-bottom:14px}.project-meta>span{display:block}.project-meta>span:last-child{font-size:7px}.project-card>p{font-size:12px;line-height:1.7}.project-links{gap:10px;padding-top:15px}.project-links a{font-size:11px;min-height:35px}.project-links .icon{height:11px;width:11px}.section-link-row{justify-content:flex-start}.text-link{font-size:10px;gap:10px}
   .resources-grid{grid-template-columns:1fr;gap:30px}.resources-grid h3{font-size:23px}.prerequisites li{font-size:13px}.course-code{margin-top:18px;padding-top:15px}.reading-panel>p{font-size:11px}.reading-panel li{font-size:13px}.course-structure{margin-top:27px;padding-inline:18px}.course-structure summary{font-size:11px}.course-structure .prose{font-size:14px}
