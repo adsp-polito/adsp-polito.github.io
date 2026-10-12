@@ -1,10 +1,190 @@
 {
-  "2025": {
-    "year": "2025",
-    "academic_year": "2025–2026",
+  "2026": {
+    "year": "2026",
+    "academic_year": "2026–2027",
     "path": "/",
     "code": "02TXXWS",
     "current": true,
+    "outcomes": [
+      "Turn user needs into innovative AI applications for digital and physical environments.",
+      "Select and adapt foundation models for language, vision and multimodal tasks.",
+      "Design solutions through stakeholder mapping, personas and functional requirements.",
+      "Plan and coordinate team projects using WBS, Gantt charts, KPIs and risk management.",
+      "Evaluate ethical implications and connections to the Sustainable Development Goals.",
+      "Communicate technical results through reports, scientific writing and team presentations."
+    ],
+    "prerequisites": [
+      "Statistics",
+      "Data mining",
+      "Machine learning and deep learning",
+      "Python language",
+      "Relational, NoSQL, graph databases"
+    ],
+    "books": [
+      "Machine Learning Yearning, by Andrew Ng",
+      "Data Science from Scratch, Joel Grus",
+      "Harvard Business Review Project Management Handbook: How to Launch, Lead, and Sponsor Successful Projects, by Antonio Nieto-Rodriguez",
+      "Oxford Guide to Effective Writing and Speaking: How to Communicate Clearly, by John Seely",
+      "The Design of Everyday Things: Revised and Expanded Edition, by Donald Norman",
+      "Noessel C. Designing Agentive Technology. AI That Works for People. Rosenfeld, 2013",
+      "Proposal for a Regulation laying down harmonised rules on artificial intelligence, European Commission, 2021"
+    ],
+    "structure": "The course combines 30 hours of lectures with 50 hours of laboratory activities. Lectures connect the four project foundations with AI methods and applications in digital and physical environments. Laboratory work includes hands-on case studies in design and development, team project development and team presentation checkpoints.",
+    "lectures": [
+      {
+        "title": "Building an artificial intelligence application for digital and physical environments",
+        "pillar": "overview",
+        "duration": "1.5h",
+        "links": []
+      },
+      {
+        "title": "Introduction to project foundations: design, innovation management, development and communication",
+        "pillar": "overview",
+        "duration": "1.5h",
+        "links": []
+      },
+      {
+        "title": "Human-centred design, stakeholder mapping, user personas and functional requirements",
+        "pillar": "design",
+        "duration": "1.5h",
+        "links": []
+      },
+      {
+        "title": "Management, WBS and Gantt",
+        "pillar": "manage",
+        "duration": "1.5h",
+        "links": []
+      },
+      {
+        "title": "Model-centric and data-centric projects",
+        "pillar": "develop",
+        "duration": "1.5h",
+        "links": []
+      },
+      {
+        "title": "Foundation models and model hub",
+        "pillar": "develop",
+        "duration": "1.5h",
+        "links": []
+      },
+      {
+        "title": "Large language models and applications (LLMs)",
+        "pillar": "develop",
+        "duration": "3h",
+        "links": []
+      },
+      {
+        "title": "Transfer learning and domain adaptation",
+        "pillar": "develop",
+        "duration": "1.5h",
+        "links": []
+      },
+      {
+        "title": "Retrieval-augmented generation (RAG)",
+        "pillar": "develop",
+        "duration": "1.5h",
+        "links": []
+      },
+      {
+        "title": "Vision models and applications",
+        "pillar": "develop",
+        "duration": "3h",
+        "links": []
+      },
+      {
+        "title": "Vision-language models and applications",
+        "pillar": "develop",
+        "duration": "3h",
+        "links": []
+      },
+      {
+        "title": "Transfer learning with vision-language models",
+        "pillar": "develop",
+        "duration": "1.5h",
+        "links": []
+      },
+      {
+        "title": "Multimodal large language models and applications",
+        "pillar": "develop",
+        "duration": "3h",
+        "links": []
+      },
+      {
+        "title": "AI ethics and Sustainable Development Goals (SDGs)",
+        "pillar": "design",
+        "duration": "1.5h",
+        "links": []
+      },
+      {
+        "title": "Introduction to AI in physical environments: vision-language-action models and embodied AI",
+        "pillar": "develop",
+        "duration": "1.5h",
+        "links": []
+      },
+      {
+        "title": "Technical and scientific communication",
+        "pillar": "communicate",
+        "duration": "1.5h",
+        "links": []
+      }
+    ],
+    "labs": [
+      {
+        "title": "Hands-on practical case studies: design and development"
+      },
+      {
+        "title": "Team project development"
+      },
+      {
+        "title": "Team presentation checkpoints"
+      }
+    ],
+    "projects": [],
+    "team": [
+      {
+        "name": "Giuseppe Rizzo",
+        "role": "Course lead · AI & data science",
+        "initials": "GR"
+      },
+      {
+        "name": "Antonella Frisiello",
+        "role": "Service design & UX",
+        "initials": "AF"
+      },
+      {
+        "name": "Alessandro Fiori",
+        "role": "Teaching assistant",
+        "initials": "AF"
+      },
+      {
+        "name": "Federico D’Asaro",
+        "role": "Teaching assistant",
+        "initials": "FD"
+      },
+      {
+        "name": "Luca Barco",
+        "role": "Teaching assistant",
+        "initials": "LB"
+      }
+    ],
+    "credits": 8,
+    "lecture_hours": 30,
+    "lab_hours": 50,
+    "mindset": "foundations",
+    "value_proposition": {
+      "lead": "Learn by building",
+      "focus": "innovative AI solutions."
+    },
+    "description": "Turn ideas into innovative AI applications for digital and physical environments through human-centred design, development, communication and innovation management.",
+    "intro": "Learn to innovate with AI in digital and physical environments, with people guiding the design and management supporting every step.",
+    "showcase_edition": "2025"
+  },
+  "2025": {
+    "year": "2025",
+    "academic_year": "2025–2026",
+    "path": "/2025/",
+    "code": "02TXXWS",
+    "current": false,
     "outcomes": [
       "Knowledge of first-hand computational tools to address data science projects",
       "Knowledge of the design best practices and tools",
@@ -661,7 +841,8 @@
     "material_counts": {
       "slides": 27,
       "notebooks": 10
-    }
+    },
+    "mindset": "foundations"
   },
   "2024": {
     "year": "2024",

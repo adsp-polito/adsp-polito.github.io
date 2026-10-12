@@ -1,9 +1,15 @@
 [
   {
-    "year": "2025",
-    "label": "2025–2026",
+    "year": "2026",
+    "label": "2026–2027",
     "path": "/",
     "current": true
+  },
+  {
+    "year": "2025",
+    "label": "2025–2026",
+    "path": "/2025/",
+    "current": false
   },
   {
     "year": "2024",
