@@ -16,6 +16,8 @@ The site uses GitHub Pages and Jekyll with a shared layout. There is no JavaScri
 | Page structure | `_layouts/course.html` |
 | Navigation, footer and project cards | `_includes/` |
 | Colours, typography and responsive layout | `assets/css/site.css` |
+| Shared logo display | `_includes/brand-icon.html` and `assets/images/adsp-logo.png` |
+| Browser icon and theme colour | `assets/images/favicon.svg` and `_layouts/default.html` |
 | Search, filters and mobile navigation | `assets/js/site.js` |
 
 JSON keys for editions are strings, such as `"2025"`. The homepage remains the published 2025–2026 edition; a future academic year can be added separately. Hours and credits appear only where the original edition supplies them.
@@ -61,3 +63,9 @@ Several old lecture links have been repaired to match files that already exist i
 The 2022 model/data-centric slide file referenced in the old page is absent from the repository. That topic remains visible with “Slides unavailable”. The 2025–2026 homepage indexes all 37 materials supplied in the two batches, using the uploaded filenames to determine lecture order even when a PDF cover has an older lecture number.
 
 Fonts are served locally. Their SIL Open Font License notices are included in `assets/fonts/`.
+
+## Logo and colour palette
+
+The supplied transparent logo is preserved byte for byte in `assets/images/adsp-logo.png`. `_includes/brand-icon.html` displays that artwork in both the header and footer, using an SVG viewport to fit its transparent margins. The footer uses a white backing so the original blue remains visible. The self-contained favicon embeds the same PNG; it does not redraw or recolour the mark.
+
+The shared stylesheet defines the logo's sampled blue (`--brand-blue: #013870`) and orange (`--brand-orange: #fd7d01`), with related blue and warm orange surfaces. All editions and the 404 page use this palette. Orange buttons use darker blue text, while text links and category labels use darker colours for readable contrast. When replacing the logo, update its viewport, embedded favicon, palette variables and browser theme colour together.
