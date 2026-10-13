@@ -1,0 +1,4 @@
+<a class="paper-title" href="{{ include.paper.url | escape }}">{{ include.paper.title | escape }}</a>
+<p class="paper-meta">{{ include.paper.authors | escape }} ({{ include.paper.year }}).</p>
+{% if include.show_note %}<p class="paper-note">{{ include.paper.note | escape }}</p>{% endif %}
+{% if include.lecture %}<a class="paper-topic" href="#lecture-{{ page.edition }}-{{ include.lecture_index }}" data-pillar-link="{{ include.lecture.pillar }}">{{ include.lecture.title | escape }} {% include icon.html name='arrow' %}</a>{% endif %}
