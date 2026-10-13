@@ -241,6 +241,22 @@ summary::-webkit-details-marker{display:none}
 .resource-links .icon{width:12px;height:12px}
 .resource-row-numbered .resource-links{flex-direction:column;align-items:flex-end;gap:7px}
 .resource-pending{font-size:10px;color:var(--muted);white-space:nowrap}
+.resource-row[id]{scroll-margin-top:120px}
+.lecture-readings{grid-column:2/-1;min-width:0;border-top:1px solid var(--surface-blue);padding-top:6px}
+.lecture-readings summary{display:flex;align-items:center;justify-content:space-between;gap:15px;min-height:36px;font-size:11px;font-weight:600;color:var(--link);list-style:none;cursor:pointer}
+.lecture-readings summary::-webkit-details-marker{display:none}
+.lecture-readings summary .icon{width:14px;height:14px;flex-shrink:0}
+.lecture-readings[open] summary .icon{transform:rotate(180deg)}
+.paper-count{display:inline-block;margin-left:5px;padding:1px 6px;border-radius:4px;background:var(--surface-blue);font-size:10px;font-weight:500}
+.lecture-paper-list{list-style:none;padding:0 0 3px}
+.lecture-paper-list li{padding:12px 0;border-top:1px solid var(--surface-blue)}
+.paper-title{font-size:12px;font-weight:600;line-height:1.65;color:var(--link);overflow-wrap:anywhere}
+.paper-title:hover{text-decoration:underline;text-underline-offset:3px}
+.paper-meta{font-size:11px;color:var(--muted);line-height:1.6;margin-top:3px}
+.paper-note{font-size:11px;line-height:1.75;color:var(--muted);margin-top:5px}
+.paper-topic{display:inline-flex;align-items:center;gap:8px;font-size:10px;color:var(--muted);line-height:1.65;margin-top:5px;overflow-wrap:anywhere}
+.paper-topic:hover{color:var(--link);text-decoration:underline;text-underline-offset:3px}
+.paper-topic .icon{width:12px;height:12px;flex-shrink:0}
 .no-results{padding:55px 24px;text-align:center}
 .no-results h3{margin-bottom:10px}.no-results p{font-size:12px;color:var(--muted);margin-bottom:16px}
 .text-button{border:0;background:transparent;display:inline-flex;align-items:center;gap:10px;font-size:12px;font-weight:650;color:var(--link);padding:6px}
@@ -283,6 +299,9 @@ summary::-webkit-details-marker{display:none}
 .reading-panel li{font-size:13px;line-height:1.75;border-bottom:1px solid var(--surface-blue);padding:13px 0 13px 31px;position:relative;counter-increment:books}
 .reading-panel li:before{content:counter(books,decimal-leading-zero);position:absolute;left:0;top:15px;font-size:9px;color:var(--muted)}
 .reading-panel li:last-child{border:0}
+.reading-panel h4{font-family:var(--body);font-size:12px;font-weight:650;margin-bottom:3px}
+.reading-panel .reference-books-title{margin-top:27px}
+.reading-panel .paper-title{font-size:13px}
 .reading-panel .materials-note{font-size:10px;color:var(--muted);margin-top:20px;border-left:2px solid var(--accent);padding-left:13px}
 .course-structure{border:1px solid var(--border);border-radius:10px;margin-top:40px;padding:0 22px}
 .course-structure summary{display:flex;align-items:center;justify-content:space-between;font-size:12px;font-weight:600;padding:18px 0;list-style:none}
