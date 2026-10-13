@@ -1,0 +1,100 @@
+{
+  "amershi-2019": {
+    "authors": "Amershi et al.",
+    "year": 2019,
+    "title": "Guidelines for Human-AI Interaction",
+    "url": "https://www.microsoft.com/en-us/research/publication/guidelines-for-human-ai-interaction/",
+    "note": "Connects human needs, feedback and responsible AI behaviour to the Design foundation."
+  },
+  "sculley-2015": {
+    "authors": "Sculley et al.",
+    "year": 2015,
+    "title": "Hidden Technical Debt in Machine Learning Systems",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2015/hash/86df7dcfd896fcaf2674f757a2463eba-Abstract.html",
+    "note": "Explains dependencies, feedback loops and maintainability across Develop and Manage."
+  },
+  "atkinson-1999": {
+    "authors": "Atkinson",
+    "year": 1999,
+    "title": "Project management: cost, time and quality, two best guesses and a phenomenon, its time to accept other success criteria",
+    "url": "https://doi.org/10.1016/S0263-7863(98)00069-6",
+    "note": "Connects project success with stakeholder benefits and performance indicators beyond cost, time and quality."
+  },
+  "anbari-2003": {
+    "authors": "Anbari",
+    "year": 2003,
+    "title": "Earned Value Project Management Method and Extensions",
+    "url": "https://www.pmi.org/learning/library/2019/04/07/15/04/earned-value-gauge-components-method-extensions-2512",
+    "note": "Connects planning with monitoring, forecasting and corrective action through earned value."
+  },
+  "zha-2023": {
+    "authors": "Zha et al.",
+    "year": 2023,
+    "title": "Data-centric Artificial Intelligence: A Survey",
+    "url": "https://arxiv.org/abs/2303.10158",
+    "note": "Surveys training-data development, inference data and data maintenance across the AI lifecycle."
+  },
+  "sambasivan-2021": {
+    "authors": "Sambasivan et al.",
+    "year": 2021,
+    "title": "\"Everyone wants to do the model work, not the data work\": Data Cascades in High-Stakes AI",
+    "url": "https://research.google/pubs/everyone-wants-to-do-the-model-work-not-the-data-work-data-cascades-in-high-stakes-ai/",
+    "note": "Shows how data quality issues propagate through AI development and affect downstream outcomes."
+  },
+  "bommasani-2021": {
+    "authors": "Bommasani et al.",
+    "year": 2021,
+    "title": "On the Opportunities and Risks of Foundation Models",
+    "url": "https://arxiv.org/abs/2108.07258",
+    "note": "Introduces the foundation-model framing, covering capabilities, adaptation, opportunities and risks."
+  },
+  "kaplan-2020": {
+    "authors": "Kaplan et al.",
+    "year": 2020,
+    "title": "Scaling Laws for Neural Language Models",
+    "url": "https://arxiv.org/abs/2001.08361",
+    "note": "Relates language-model performance to model size, dataset size and training compute."
+  },
+  "wolf-2020": {
+    "authors": "Wolf et al.",
+    "year": 2020,
+    "title": "Transformers: State-of-the-Art Natural Language Processing",
+    "url": "https://aclanthology.org/2020.emnlp-demos.6/",
+    "note": "Describes the Transformers library and the reuse of pretrained language models."
+  },
+  "mitchell-2019": {
+    "authors": "Mitchell et al.",
+    "year": 2019,
+    "title": "Model Cards for Model Reporting",
+    "url": "https://doi.org/10.1145/3287560.3287596",
+    "note": "Supports model selection through documentation of intended uses, evaluation and limitations."
+  },
+  "vaswani-2017": {
+    "authors": "Vaswani et al.",
+    "year": 2017,
+    "title": "Attention Is All You Need",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "note": "Provides the Transformer and attention mechanisms underlying modern language models."
+  },
+  "brown-2020": {
+    "authors": "Brown et al.",
+    "year": 2020,
+    "title": "Language Models are Few-Shot Learners",
+    "url": "https://arxiv.org/abs/2005.14165",
+    "note": "Connects autoregressive language modelling with few-shot learning across diverse tasks."
+  },
+  "pan-yang-2010": {
+    "authors": "Pan & Yang",
+    "year": 2010,
+    "title": "A Survey on Transfer Learning",
+    "url": "https://doi.org/10.1109/TKDE.2009.191",
+    "note": "Clarifies source and target domains and tasks, and the relationship between transfer learning and domain adaptation."
+  },
+  "hu-2022": {
+    "authors": "Hu et al.",
+    "year": 2022,
+    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "url": "https://arxiv.org/abs/2106.09685",
+    "note": "Explains adaptation through small low-rank updates while pretrained weights remain frozen."
+  }
+}
