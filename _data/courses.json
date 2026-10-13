@@ -32,16 +32,20 @@
     "structure": "The course combines 30 hours of lectures with 50 hours of laboratory activities. Lectures connect the four project foundations with AI methods and applications in digital and physical environments. Laboratory work includes hands-on case studies in design and development, team project development and team presentation checkpoints.",
     "lectures": [
       {
-        "title": "Building an artificial intelligence application for digital and physical environments",
+        "code": "L01",
+        "title": "Introduction",
         "pillar": "overview",
         "duration": "1.5h",
-        "links": []
+        "links": [],
+        "description": "Course objectives, activities and the applied data science project."
       },
       {
-        "title": "Introduction to project foundations: design, innovation management, development and communication",
+        "code": "L02",
+        "title": "Project mindset",
         "pillar": "overview",
         "duration": "1.5h",
-        "links": []
+        "links": [],
+        "description": "Design, develop and communicate, with manage supporting the whole project."
       },
       {
         "title": "Human-centred design, stakeholder mapping, user personas and functional requirements",
