@@ -8,6 +8,7 @@ The site uses GitHub Pages and Jekyll with a shared layout. There is no JavaScri
 | --- | --- |
 | Each edition’s overview | `README.md` or `2021/README.md` through `2025/README.md` |
 | Lecture topics, file links, projects, readings, learning outcomes and teaching teams | `_data/courses.json` |
+| Recommended paper citations, links and relevance notes | `_data/papers.json` |
 | Edition selector and archive links | `_data/editions.json` |
 | Four foundation descriptions for 2025–2026 and 2026–2027 | `_data/foundations.json` |
 | Earlier editions’ four pillar descriptions | `_data/pillars.json` |
@@ -46,6 +47,12 @@ Upload the PDF or notebook into its edition’s existing folder, then add a link
 ```
 
 Use `type: "notebook"` for a notebook download, and a distinct label and `title` for each resource when a lecture has several files. Update the edition’s `material_counts` totals when adding materials. Supported pillar values are `overview`, `design`, `develop`, `manage` and `communicate`. Leave `links` empty for a topic whose materials are unavailable. The website remains fully readable with JavaScript disabled.
+
+## Add a recommended paper
+
+Store each citation once in `_data/papers.json`, with a stable ID, `authors`, `year`, `title`, `url` and a short `note` explaining its relevance. Prefer publisher or author-hosted links and omit tracking parameters. Add its ID to the matching lecture's `papers` array in `_data/courses.json`, in reading order. `_includes/paper-reference.html` renders the same citation beneath that lecture and in the edition's “Keep learning” bibliography. The lecture reading lists use native expandable sections and work without JavaScript. Bibliography topic links also clear search and select the appropriate lecture filter.
+
+The 2026–2027 edition includes 14 papers across six topics. Match readings by topic when lecture numbering differs between editions: the current combined “Foundation models and model hub” topic includes the four papers for both subjects. Preserve the supplied syllabus order, the L01 Introduction and L02 Project mindset labels, and the existing books. Archived editions only show papers explicitly assigned to their own lecture data.
 
 ## Local preview
 

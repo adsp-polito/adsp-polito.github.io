@@ -5,6 +5,8 @@ layout: default
 {% assign mindset = site.data.pillars %}
 {% assign uses_foundations = false %}
 {% if course.mindset == 'foundations' %}{% assign mindset = site.data.foundations %}{% assign uses_foundations = true %}{% endif %}
+{% assign has_papers = false %}
+{% for lecture in course.lectures %}{% if lecture.papers.size > 0 %}{% assign has_papers = true %}{% break %}{% endif %}{% endfor %}
 <section class="hero" aria-labelledby="course-title">
   <span class="legacy-anchor" id="applied-data-science-project-adsp-{{ course.code | downcase }}{% if course.credits %}---{{ course.credits }}-cfu{% endif %}"></span>
   <div class="container">
@@ -53,7 +55,22 @@ layout: default
     </div>
     <div class="resource-library">
       <div class="library-caption"><span>Lectures & project tools</span><span id="resource-count" role="status" aria-live="polite">{{ course.lectures.size }} topics</span></div>
-      <ul class="resource-list">{% for lecture in course.lectures %}<li class="resource-row{% if lecture.code %} resource-row-numbered{% endif %}" data-pillar="{{ lecture.pillar }}"><span class="resource-number">{% if lecture.code %}{{ lecture.code | escape }}{% else %}{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}{% endif %}</span><div class="resource-title"><h3>{{ lecture.title | escape }}</h3>{% if lecture.description %}<p>{{ lecture.description | escape }}</p>{% endif %}</div><div class="resource-meta"><span class="pillar-tag tag-{{ lecture.pillar }}">{{ lecture.pillar | capitalize }}</span>{% if lecture.duration %}<span class="resource-duration">{{ lecture.duration }}</span>{% endif %}</div><div class="resource-links">{% if lecture.links.size > 0 %}{% for link in lecture.links %}<a href="{{ link.url | relative_url | escape }}" aria-label="{{ link.label | escape }}: {{ link.title | default: lecture.title | escape }}"{% if link.type == 'notebook' %} download{% endif %}>{% include icon.html name='file' %}{{ link.label | escape }}</a>{% endfor %}{% else %}<span class="resource-pending">{% if course.current %}Material pending{% elsif lecture.title == 'Project proposals' %}Topic only{% else %}Slides unavailable{% endif %}</span>{% endif %}</div></li>{% endfor %}</ul>
+      <ul class="resource-list">
+        {% for lecture in course.lectures %}
+        <li class="resource-row{% if lecture.code %} resource-row-numbered{% endif %}" data-pillar="{{ lecture.pillar }}"{% if lecture.papers.size > 0 %} id="lecture-{{ page.edition }}-{{ forloop.index }}"{% endif %}>
+          <span class="resource-number">{% if lecture.code %}{{ lecture.code | escape }}{% else %}{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}{% endif %}</span>
+          <div class="resource-title"><h3>{{ lecture.title | escape }}</h3>{% if lecture.description %}<p>{{ lecture.description | escape }}</p>{% endif %}</div>
+          <div class="resource-meta"><span class="pillar-tag tag-{{ lecture.pillar }}">{{ lecture.pillar | capitalize }}</span>{% if lecture.duration %}<span class="resource-duration">{{ lecture.duration }}</span>{% endif %}</div>
+          <div class="resource-links">{% if lecture.links.size > 0 %}{% for link in lecture.links %}<a href="{{ link.url | relative_url | escape }}" aria-label="{{ link.label | escape }}: {{ link.title | default: lecture.title | escape }}"{% if link.type == 'notebook' %} download{% endif %}>{% include icon.html name='file' %}{{ link.label | escape }}</a>{% endfor %}{% else %}<span class="resource-pending">{% if course.current %}Material pending{% elsif lecture.title == 'Project proposals' %}Topic only{% else %}Slides unavailable{% endif %}</span>{% endif %}</div>
+          {% if lecture.papers.size > 0 %}
+          <details class="lecture-readings">
+            <summary aria-label="Recommended papers for {{ lecture.title | escape }} ({{ lecture.papers.size }})"><span>Recommended papers <span class="paper-count">{{ lecture.papers.size }}</span></span>{% include icon.html name='chevron' %}</summary>
+            <ul class="lecture-paper-list">{% for paper_id in lecture.papers %}{% assign paper = site.data.papers[paper_id] %}<li data-paper-id="{{ paper_id }}">{% include paper-reference.html paper=paper show_note=true %}</li>{% endfor %}</ul>
+          </details>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
       <div class="no-results" hidden><h3>Try another topic.</h3><p>Adjust your search or choose another {% if uses_foundations %}foundation{% else %}pillar{% endif %}.</p><button type="button" class="text-button" id="reset-filters">Show all lectures {% include icon.html name='arrow' %}</button></div>
     </div>
     {% if course.labs.size > 0 %}<div class="lab-block"><div><span class="eyebrow">Put it into practice</span><h3>In the laboratory.</h3><p>Work with people, models and data.<br>Then bring them together in your team project.</p></div><ul>{% for lab in course.labs %}<li><div><strong>{{ lab.title | escape }}</strong>{% if lab.description %}<p>{{ lab.description | escape }}</p>{% endif %}</div>{% if lab.duration %}<span>{{ lab.duration }}</span>{% endif %}</li>{% endfor %}</ul></div>{% elsif course.lab_hours %}<div class="lab-summary"><span class="lab-icon">{% include icon.html name='develop' %}</span><div><h3>{{ course.lab_hours }} hours to build your project.</h3><p>Laboratory activities for the making of the projects.</p></div></div>{% endif %}
@@ -73,7 +90,26 @@ layout: default
 
 <section class="section resources-section" id="resources" aria-labelledby="resources-title">
   <div class="container"><div class="section-heading"><div><span class="eyebrow">Before you begin</span><h2 id="resources-title">Come prepared. Stay curious.</h2></div><p>The background knowledge and reading<br>to support your project.</p></div>
-    <div class="resources-grid"><div class="prerequisites"><h3 id="pre-requirements">Useful foundations.</h3><ul>{% for requirement in course.prerequisites %}<li>{% include icon.html name='check' %}{{ requirement | escape }}</li>{% endfor %}</ul><p class="course-code">Course {{ course.code }} · 2nd year<br>Data Science and Engineering</p></div><div class="reading-panel"><h3 id="reading-materials">Keep learning.</h3>{% if course.books.size > 0 %}<p>Reference books and reading materials.</p><ol>{% for book in course.books %}<li>{{ book | escape }}</li>{% endfor %}</ol>{% else %}<p>Use the lecture slides and examples above to revisit the concepts and practise the tools.</p>{% endif %}<p class="materials-note">Teaching materials are available through this website and the teaching portal.</p></div></div>
+    <div class="resources-grid">
+      <div class="prerequisites"><h3 id="pre-requirements">Useful foundations.</h3><ul>{% for requirement in course.prerequisites %}<li>{% include icon.html name='check' %}{{ requirement | escape }}</li>{% endfor %}</ul><p class="course-code">Course {{ course.code }} · 2nd year<br>Data Science and Engineering</p></div>
+      <div class="reading-panel">
+        <h3 id="reading-materials">Keep learning.</h3>
+        {% if has_papers %}
+        <p>Recommended research to explore alongside the lectures.</p>
+        <h4>Recommended papers</h4>
+        <ol class="paper-bibliography">
+          {% for lecture in course.lectures %}{% assign lecture_index = forloop.index %}{% for paper_id in lecture.papers %}{% assign paper = site.data.papers[paper_id] %}
+          <li data-paper-id="{{ paper_id }}">{% include paper-reference.html paper=paper lecture=lecture lecture_index=lecture_index %}</li>
+          {% endfor %}{% endfor %}
+        </ol>
+        {% endif %}
+        {% if course.books.size > 0 %}
+        {% if has_papers %}<h4 class="reference-books-title">Reference books and reading materials</h4>{% else %}<p>Reference books and reading materials.</p>{% endif %}
+        <ol>{% for book in course.books %}<li>{{ book | escape }}</li>{% endfor %}</ol>
+        {% elsif has_papers == false %}<p>Use the lecture slides and examples above to revisit the concepts and practise the tools.</p>{% endif %}
+        <p class="materials-note">Teaching materials are available through this website and the teaching portal.</p>
+      </div>
+    </div>
     <details class="course-structure"><summary><span id="course-structure">How the course works</span>{% include icon.html name='chevron' %}</summary><div class="prose">{{ course.structure | markdownify }}</div></details>
   </div>
 </section>

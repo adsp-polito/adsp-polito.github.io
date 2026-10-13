@@ -45,7 +45,11 @@
         "pillar": "overview",
         "duration": "1.5h",
         "links": [],
-        "description": "Design, develop and communicate, with manage supporting the whole project."
+        "description": "Design, develop and communicate, with manage supporting the whole project.",
+        "papers": [
+          "amershi-2019",
+          "sculley-2015"
+        ]
       },
       {
         "title": "Human-centred design, stakeholder mapping, user personas and functional requirements",
@@ -57,31 +61,53 @@
         "title": "Management, WBS and Gantt",
         "pillar": "manage",
         "duration": "1.5h",
-        "links": []
+        "links": [],
+        "papers": [
+          "atkinson-1999",
+          "anbari-2003"
+        ]
       },
       {
         "title": "Model-centric and data-centric projects",
         "pillar": "develop",
         "duration": "1.5h",
-        "links": []
+        "links": [],
+        "papers": [
+          "zha-2023",
+          "sambasivan-2021"
+        ]
       },
       {
         "title": "Foundation models and model hub",
         "pillar": "develop",
         "duration": "1.5h",
-        "links": []
+        "links": [],
+        "papers": [
+          "bommasani-2021",
+          "kaplan-2020",
+          "wolf-2020",
+          "mitchell-2019"
+        ]
       },
       {
         "title": "Large language models and applications (LLMs)",
         "pillar": "develop",
         "duration": "3h",
-        "links": []
+        "links": [],
+        "papers": [
+          "vaswani-2017",
+          "brown-2020"
+        ]
       },
       {
         "title": "Transfer learning and domain adaptation",
         "pillar": "develop",
         "duration": "1.5h",
-        "links": []
+        "links": [],
+        "papers": [
+          "pan-yang-2010",
+          "hu-2022"
+        ]
       },
       {
         "title": "Retrieval-augmented generation (RAG)",
