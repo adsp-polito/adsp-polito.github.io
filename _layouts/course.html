@@ -3,7 +3,8 @@ layout: default
 ---
 {% assign course = site.data.courses[page.edition] %}
 {% assign mindset = site.data.pillars %}
-{% if course.current %}{% assign mindset = site.data.foundations %}{% endif %}
+{% assign uses_foundations = false %}
+{% if course.mindset == 'foundations' %}{% assign mindset = site.data.foundations %}{% assign uses_foundations = true %}{% endif %}
 <section class="hero" aria-labelledby="course-title">
   <span class="legacy-anchor" id="applied-data-science-project-adsp-{{ course.code | downcase }}{% if course.credits %}---{{ course.credits }}-cfu{% endif %}"></span>
   <div class="container">
@@ -12,7 +13,7 @@ layout: default
       <div class="hero-copy">
         <h1 id="course-title">Applied Data<br>Science Project<span>.</span></h1>
         <p class="hero-tagline">From AI concepts to<br><strong>real-world solutions.</strong></p>
-        <p class="hero-intro">{% if course.current %}Learn to design, develop and communicate an AI project, with management supporting every step.{% else %}Learn to design, develop, manage and communicate an AI project through hands-on collaboration.{% endif %}</p>
+        <p class="hero-intro">{% if course.intro %}{{ course.intro | escape }}{% elsif uses_foundations %}Learn to design, develop and communicate an AI project, with management supporting every step.{% else %}Learn to design, develop, manage and communicate an AI project through hands-on collaboration.{% endif %}</p>
         <div class="hero-actions"><a class="button button-primary" href="#lectures">Explore the course {% include icon.html name='arrow' %}</a><a class="hero-secondary" href="#projects">See student projects {% include icon.html name='external' %}</a></div>
       </div>
       {% include project-mindset.html %}
@@ -30,14 +31,14 @@ layout: default
 
 <section class="section overview-section" id="overview" aria-labelledby="overview-title">
   <div class="container overview-grid">
-    <div class="overview-copy"><span class="eyebrow">The course</span><h2 id="overview-title">Learn by building<br>something that matters.</h2><div class="prose">{{ content }}</div></div>
+    <div class="overview-copy"><span class="eyebrow">The course</span><h2 id="overview-title">{{ course.value_proposition.lead | default: 'Learn by building' | escape }}<br>{{ course.value_proposition.focus | default: 'something that matters.' | escape }}</h2><div class="prose">{{ content }}</div></div>
     <aside class="outcomes-panel" aria-labelledby="expected-learning-outcomes"><span class="eyebrow">What you’ll take away</span><h3 id="expected-learning-outcomes">Skills beyond the model.</h3><ul>{% for outcome in course.outcomes %}<li><span class="outcome-check">{% include icon.html name='check' %}</span><span>{{ outcome | escape }}</span></li>{% endfor %}</ul></aside>
   </div>
 </section>
 
 <section class="section pillars-section" id="learning-path" aria-labelledby="pillars-title">
-  <div class="container"><div class="section-heading"><div><span class="eyebrow">The learning path</span><h2 id="pillars-title">Four {% if course.current %}foundations{% else %}pillars{% endif %}. One project.</h2></div><p>{% if course.current %}Design, develop and communicate.<br> Manage supports the whole journey.{% else %}Build the skills to take an idea<br>all the way to a working solution.{% endif %}</p></div>
-    <div class="pillar-grid{% if course.current %} foundation-grid{% endif %}">{% for pillar in mindset %}<a class="pillar-card pillar-{{ pillar.id }}{% if course.current and pillar.id == 'manage' %} foundation-management{% endif %}" href="#lectures" data-pillar-link="{{ pillar.id }}"><div class="pillar-top"><span class="pillar-icon">{% include icon.html name=pillar.id %}</span><span class="pillar-number">{{ pillar.number }}</span></div>{% if course.current and pillar.id == 'manage' %}<span class="foundation-scope">Across every stage</span>{% endif %}<h3>{{ pillar.name }}</h3><strong>{{ pillar.question }}</strong><p>{{ pillar.description }}</p><span class="pillar-link">Explore lectures {% include icon.html name='arrow' %}</span></a>{% endfor %}</div>
+  <div class="container"><div class="section-heading"><div><span class="eyebrow">The learning path</span><h2 id="pillars-title">Four {% if uses_foundations %}foundations{% else %}pillars{% endif %}. One project.</h2></div><p>{% if uses_foundations %}Design, develop and communicate.<br> Manage supports the whole journey.{% else %}Build the skills to take an idea<br>all the way to a working solution.{% endif %}</p></div>
+    <div class="pillar-grid{% if uses_foundations %} foundation-grid{% endif %}">{% for pillar in mindset %}<a class="pillar-card pillar-{{ pillar.id }}{% if uses_foundations and pillar.id == 'manage' %} foundation-management{% endif %}" href="#lectures" data-pillar-link="{{ pillar.id }}"><div class="pillar-top"><span class="pillar-icon">{% include icon.html name=pillar.id %}</span><span class="pillar-number">{{ pillar.number }}</span></div>{% if uses_foundations and pillar.id == 'manage' %}<span class="foundation-scope">Across every stage</span>{% endif %}<h3>{{ pillar.name }}</h3><strong>{{ pillar.question }}</strong><p>{{ pillar.description }}</p><span class="pillar-link">Explore lectures {% include icon.html name='arrow' %}</span></a>{% endfor %}</div>
   </div>
 </section>
 
@@ -47,23 +48,26 @@ layout: default
     <div class="section-heading"><div><span class="eyebrow">Explore & apply</span><h2 id="lectures-title">Your course toolkit.</h2></div><p>{% if course.lecture_hours %}{{ course.lecture_hours }} hours of lectures{% else %}Concepts, methods and practical tools{% endif %}<br>{% if course.lab_hours %}{{ course.lab_hours }} hours of hands-on laboratory{% else %}for your data science project{% endif %}</p></div>
     {% if course.material_counts %}<p class="resource-note">{{ course.material_counts.slides }} slide decks and {{ course.material_counts.notebooks }} notebooks, in lecture order. Download the materials below to revisit each topic.</p>{% elsif course.current %}<p class="resource-note">Lecture topics are listed below. Slides will appear here as they become available.</p>{% endif %}
     <div class="resource-tools" hidden>
-      <div class="filter-tabs" role="group" aria-label="Filter lectures by {% if course.current %}foundation{% else %}pillar{% endif %}"><button type="button" data-filter="all" class="is-active" aria-pressed="true">All topics</button><button type="button" data-filter="overview" aria-pressed="false">Overview</button>{% for pillar in mindset %}<button type="button" data-filter="{{ pillar.id }}" aria-pressed="false">{{ pillar.name }}</button>{% endfor %}</div>
+      <div class="filter-tabs" role="group" aria-label="Filter lectures by {% if uses_foundations %}foundation{% else %}pillar{% endif %}"><button type="button" data-filter="all" class="is-active" aria-pressed="true">All topics</button><button type="button" data-filter="overview" aria-pressed="false">Overview</button>{% for pillar in mindset %}<button type="button" data-filter="{{ pillar.id }}" aria-pressed="false">{{ pillar.name }}</button>{% endfor %}</div>
       <label class="search-box">{% include icon.html name='search' %}<span class="sr-only">Search lecture topics</span><input type="search" id="lecture-search" placeholder="Find a topic…" autocomplete="off"></label>
     </div>
     <div class="resource-library">
       <div class="library-caption"><span>Lectures & project tools</span><span id="resource-count" role="status" aria-live="polite">{{ course.lectures.size }} topics</span></div>
       <ul class="resource-list">{% for lecture in course.lectures %}<li class="resource-row{% if lecture.code %} resource-row-numbered{% endif %}" data-pillar="{{ lecture.pillar }}"><span class="resource-number">{% if lecture.code %}{{ lecture.code | escape }}{% else %}{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}{% endif %}</span><div class="resource-title"><h3>{{ lecture.title | escape }}</h3>{% if lecture.description %}<p>{{ lecture.description | escape }}</p>{% endif %}</div><div class="resource-meta"><span class="pillar-tag tag-{{ lecture.pillar }}">{{ lecture.pillar | capitalize }}</span>{% if lecture.duration %}<span class="resource-duration">{{ lecture.duration }}</span>{% endif %}</div><div class="resource-links">{% if lecture.links.size > 0 %}{% for link in lecture.links %}<a href="{{ link.url | relative_url | escape }}" aria-label="{{ link.label | escape }}: {{ link.title | default: lecture.title | escape }}"{% if link.type == 'notebook' %} download{% endif %}>{% include icon.html name='file' %}{{ link.label | escape }}</a>{% endfor %}{% else %}<span class="resource-pending">{% if course.current %}Material pending{% elsif lecture.title == 'Project proposals' %}Topic only{% else %}Slides unavailable{% endif %}</span>{% endif %}</div></li>{% endfor %}</ul>
-      <div class="no-results" hidden><h3>Try another topic.</h3><p>Adjust your search or choose another {% if course.current %}foundation{% else %}pillar{% endif %}.</p><button type="button" class="text-button" id="reset-filters">Show all lectures {% include icon.html name='arrow' %}</button></div>
+      <div class="no-results" hidden><h3>Try another topic.</h3><p>Adjust your search or choose another {% if uses_foundations %}foundation{% else %}pillar{% endif %}.</p><button type="button" class="text-button" id="reset-filters">Show all lectures {% include icon.html name='arrow' %}</button></div>
     </div>
-    {% if course.labs.size > 0 %}<div class="lab-block"><div><span class="eyebrow">Put it into practice</span><h3>In the laboratory.</h3><p>Work with people, models and data.<br>Then bring them together in your team project.</p></div><ul>{% for lab in course.labs %}<li><div><strong>{{ lab.title | escape }}</strong>{% if lab.description %}<p>{{ lab.description | escape }}</p>{% endif %}</div><span>{{ lab.duration }}</span></li>{% endfor %}</ul></div>{% elsif course.lab_hours %}<div class="lab-summary"><span class="lab-icon">{% include icon.html name='develop' %}</span><div><h3>{{ course.lab_hours }} hours to build your project.</h3><p>Laboratory activities for the making of the projects.</p></div></div>{% endif %}
+    {% if course.labs.size > 0 %}<div class="lab-block"><div><span class="eyebrow">Put it into practice</span><h3>In the laboratory.</h3><p>Work with people, models and data.<br>Then bring them together in your team project.</p></div><ul>{% for lab in course.labs %}<li><div><strong>{{ lab.title | escape }}</strong>{% if lab.description %}<p>{{ lab.description | escape }}</p>{% endif %}</div>{% if lab.duration %}<span>{{ lab.duration }}</span>{% endif %}</li>{% endfor %}</ul></div>{% elsif course.lab_hours %}<div class="lab-summary"><span class="lab-icon">{% include icon.html name='develop' %}</span><div><h3>{{ course.lab_hours }} hours to build your project.</h3><p>Laboratory activities for the making of the projects.</p></div></div>{% endif %}
   </div>
 </section>
 
+{% assign project_list = course.projects %}
+{% assign showcase_course = nil %}
+{% if course.projects.size == 0 and course.showcase_edition %}{% assign showcase_course = site.data.courses[course.showcase_edition] %}{% if showcase_course %}{% assign project_list = showcase_course.projects %}{% endif %}{% endif %}
 <section class="section projects-section" id="projects" aria-labelledby="projects-title">
   <span class="legacy-anchor" id="past-projects"></span><span class="legacy-anchor" id="some-projects"></span>
-  <div class="container"><div class="section-heading"><div><span class="eyebrow">Made by ADSP students</span><h2 id="projects-title">Ideas put to work.</h2></div><p>{% if course.projects.size > 0 %}Explore projects from {{ course.academic_year }}.<br>See how the course comes together.{% else %}A selection from previous editions.<br>Real problems, different approaches.{% endif %}</p></div>
-    <div class="project-grid">{% if course.projects.size > 0 %}{% for project in course.projects %}{% include project-card.html project=project %}{% endfor %}{% else %}{% for project in site.data.showcase %}{% include project-card.html project=project %}{% endfor %}{% endif %}</div>
-    {% if course.projects.size == 0 %}<div class="section-link-row"><a class="text-link" href="{{ '/2024/' | relative_url }}#projects">Explore all 2024–2025 projects {% include icon.html name='arrow' %}</a></div>{% endif %}
+  <div class="container"><div class="section-heading"><div><span class="eyebrow">Made by ADSP students</span><h2 id="projects-title">Ideas put to work.</h2></div><p>{% if course.projects.size > 0 %}Explore projects from {{ course.academic_year }}.<br>See how the course comes together.{% elsif showcase_course %}Explore projects from {{ showcase_course.academic_year }}.<br>See what previous student teams built.{% else %}A selection from previous editions.<br>Real problems, different approaches.{% endif %}</p></div>
+    <div class="project-grid">{% if project_list.size > 0 %}{% for project in project_list %}{% include project-card.html project=project %}{% endfor %}{% else %}{% for project in site.data.showcase %}{% include project-card.html project=project %}{% endfor %}{% endif %}</div>
+    {% if course.projects.size == 0 %}<div class="section-link-row"><a class="text-link" href="{% if showcase_course %}{{ showcase_course.path | relative_url }}{% else %}{{ '/2024/' | relative_url }}{% endif %}#projects">Explore all {% if showcase_course %}{{ showcase_course.academic_year }}{% else %}2024–2025{% endif %} projects {% include icon.html name='arrow' %}</a></div>{% endif %}
   </div>
 </section>
 

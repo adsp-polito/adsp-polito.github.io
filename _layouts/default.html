@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% assign course = site.data.courses[page.edition] %}
   <title>{% if course %}ADSP {{ course.academic_year }} · {% elsif page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
-  <meta name="description" content="{{ site.description | escape }}">
+  <meta name="description" content="{{ course.description | default: site.description | escape }}">
   <meta name="theme-color" content="#013870">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <meta property="og:type" content="website">
   <meta property="og:title" content="ADSP{% if course %} {{ course.academic_year }}{% endif %} · Applied Data Science Project">
-  <meta property="og:description" content="{{ site.description | escape }}">
+  <meta property="og:description" content="{{ course.description | default: site.description | escape }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">

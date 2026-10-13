@@ -6,11 +6,11 @@ The site uses GitHub Pages and Jekyll with a shared layout. There is no JavaScri
 
 | Content | File |
 | --- | --- |
-| Each edition’s overview | `README.md` or `2021/README.md` through `2024/README.md` |
+| Each edition’s overview | `README.md` or `2021/README.md` through `2025/README.md` |
 | Lecture topics, file links, projects, readings, learning outcomes and teaching teams | `_data/courses.json` |
 | Edition selector and archive links | `_data/editions.json` |
-| Current edition’s four foundation descriptions | `_data/foundations.json` |
-| Archived editions’ four pillar descriptions | `_data/pillars.json` |
+| Four foundation descriptions for 2025–2026 and 2026–2027 | `_data/foundations.json` |
+| Earlier editions’ four pillar descriptions | `_data/pillars.json` |
 | Current and archived project mindset diagrams | `_includes/project-mindset.html` |
 | Selected archive projects shown on pages without their own project list | `_data/showcase.json` |
 | Page structure | `_layouts/course.html` |
@@ -20,9 +20,13 @@ The site uses GitHub Pages and Jekyll with a shared layout. There is no JavaScri
 | Browser icon and theme colour | `assets/images/favicon.svg` and `_layouts/default.html` |
 | Search, filters and mobile navigation | `assets/js/site.js` |
 
-JSON keys for editions are strings, such as `"2025"`. The homepage remains the published 2025–2026 edition; a future academic year can be added separately. Hours and credits appear only where the original edition supplies them.
+JSON keys for editions are strings, such as `"2026"`. The homepage is the 2026–2027 edition. The 2025–2026 overview is archived at `/2025/`, alongside its existing materials. Update both `_data/courses.json` and `_data/editions.json` when changing the current edition. Hours and credits appear only where the edition supplies them.
 
-The 2025–2026 mindset uses Design → Develop → Communicate, with Manage spanning all three through planning, coordination, resources, KPIs and risks. The hero diagram, learning path and lecture filter labels use this foundation model for the current edition. Earlier editions retain their four-pillar framework. The lecture data’s `pillar` key remains compatible with both frameworks.
+The 2025–2026 and 2026–2027 mindsets use Design → Develop → Communicate, with Manage spanning all three through planning, coordination, resources, KPIs and risks. Set `mindset: "foundations"` on each relevant course so its hero diagram, learning path and lecture filter labels retain this model when the edition moves into the archive. Earlier editions retain their four-pillar framework. The lecture data’s `pillar` key remains compatible with both frameworks.
+
+The 2026–2027 syllabus contains 16 topics totalling 30 lecture hours and three laboratory activity types totalling 50 hours. Topic order and durations follow the supplied syllabus. Individual laboratory durations are unspecified. Lecture links remain empty until this edition's slides arrive; keep new files under `2026/` and attach each one to its corresponding topic. Add file codes when the supplied filenames establish them.
+
+The 2026–2027 `value_proposition` stores the overview heading as `lead` and `focus`: “Learn by building innovative AI solutions.” Its `intro`, `description`, learning outcomes and overview develop the innovation focus. The `showcase_edition: "2025"` setting shows existing 2025–2026 projects with their original edition labels until the new edition has its own projects.
 
 ## Add a lecture download
 
@@ -56,11 +60,11 @@ Open `http://localhost:4000`. The Gemfile uses the GitHub Pages bundle for parit
 
 ## What this redesign preserves
 
-The homepage, `/2021/`, `/2022/`, `/2023/` and `/2024/` retain their paths. PDFs, notebooks, project files and repository links keep their identities. Legacy section anchors are retained. Each archived edition keeps its original teaching team, learning outcomes, prerequisites and reading list.
+The homepage, `/2021/`, `/2022/`, `/2023/` and `/2024/` retain their paths. The previous homepage is now available at `/2025/`. PDFs, notebooks, project files and repository links keep their identities. Legacy section anchors are retained. Each archived edition keeps its original teaching team, learning outcomes, prerequisites and reading list.
 
 Several old lecture links have been repaired to match files that already exist in the repository, including the 2021 model/data-centric slides, 2022 human-centred design slides and sentiment-analysis notebook. The 2024 public-communication entry now links to Giuseppe Tipaldo’s existing social-research and communication slides.
 
-The 2022 model/data-centric slide file referenced in the old page is absent from the repository. That topic remains visible with “Slides unavailable”. The 2025–2026 homepage indexes all 37 materials supplied in the two batches, using the uploaded filenames to determine lecture order even when a PDF cover has an older lecture number.
+The 2022 model/data-centric slide file referenced in the old page is absent from the repository. That topic remains visible with “Slides unavailable”. The 2025–2026 archive indexes all 37 materials supplied in the two batches, using the uploaded filenames to determine lecture order even when a PDF cover has an older lecture number.
 
 Fonts are served locally. Their SIL Open Font License notices are included in `assets/fonts/`.
 
