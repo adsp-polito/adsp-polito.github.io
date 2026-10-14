@@ -23,6 +23,8 @@ The site uses GitHub Pages and Jekyll with a shared layout. There is no JavaScri
 
 JSON keys for editions are strings, such as `"2026"`. The homepage is the 2026–2027 edition. The 2025–2026 overview is archived at `/2025/`, alongside its existing materials. Update both `_data/courses.json` and `_data/editions.json` when changing the current edition. Hours and credits appear only where the edition supplies them.
 
+The 2026–2027 course has two Politecnico identifiers: `02TXXWS` and `02TXXSM`. Store multiple identifiers in the edition's `codes` array so both appear in the course facts and resources section. Keep `code` as the primary identifier for existing section anchors. Archived editions retain their original identifiers.
+
 The 2025–2026 and 2026–2027 mindsets use Design → Develop → Communicate, with Manage spanning all three through planning, coordination, resources, KPIs and risks. Set `mindset: "foundations"` on each relevant course so its hero diagram, learning path and lecture filter labels retain this model when the edition moves into the archive. Earlier editions retain their four-pillar framework. The lecture data’s `pillar` key remains compatible with both frameworks.
 
 The 2026–2027 syllabus contains 16 topics totalling 30 lecture hours and three laboratory activity types totalling 50 hours. Topic order and durations follow the supplied syllabus. Individual laboratory durations are unspecified. Lecture links remain empty until this edition's slides arrive; keep new files under `2026/` and attach each one to its corresponding topic. Add file codes when the supplied filenames establish them.
