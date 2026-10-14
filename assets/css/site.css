@@ -157,6 +157,7 @@ summary::-webkit-details-marker{display:none}
 .course-facts dd{margin:0;font:650 25px/1.3 var(--heading);letter-spacing:-.035em;white-space:nowrap}
 .course-facts dd span{font:400 12px/1.4 var(--body);letter-spacing:0;color:var(--on-blue-muted)}
 .course-facts .fact-word,.course-facts .fact-code{font-size:18px;padding-top:4px}
+.course-facts .fact-credits{font:400 10px/1.4 var(--body);letter-spacing:0;color:var(--on-blue-muted);margin-top:5px}
 .archive-notice{background:var(--surface-blue);border-bottom:1px solid var(--border)}
 .archive-notice>.container{display:flex;justify-content:space-between;align-items:center;gap:15px;padding-block:12px;font-size:11px;color:var(--link)}
 .archive-notice a{font-weight:650;display:flex;gap:8px;align-items:center}
