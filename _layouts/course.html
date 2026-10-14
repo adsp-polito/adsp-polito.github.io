@@ -21,7 +21,7 @@ layout: default
       {% include project-mindset.html %}
     </div>
     <dl class="course-facts">
-      {% if course.credits %}<div><dt>Course credits</dt><dd>{{ course.credits }} <span>CFU</span></dd></div>{% else %}<div><dt>Course code</dt><dd class="fact-code">{{ course.code }}</dd></div>{% endif %}
+      {% if course.codes.size > 1 %}<div><dt>Course codes</dt><dd class="fact-code">{% for code in course.codes %}{{ code | escape }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</dd>{% if course.credits %}<dt class="sr-only">Course credits</dt><dd class="fact-credits">{{ course.credits }} CFU</dd>{% endif %}</div>{% elsif course.credits %}<div><dt>Course credits</dt><dd>{{ course.credits }} <span>CFU</span></dd></div>{% else %}<div><dt>Course code</dt><dd class="fact-code">{{ course.code | escape }}</dd></div>{% endif %}
       {% if course.lecture_hours %}<div><dt>Lectures</dt><dd>{{ course.lecture_hours }}<span> hours</span></dd></div>{% endif %}
       {% if course.lab_hours %}<div><dt>Laboratory</dt><dd>{{ course.lab_hours }}<span> hours</span></dd></div>{% endif %}
       <div><dt>Teaching language</dt><dd class="fact-word">English</dd></div>
@@ -91,7 +91,7 @@ layout: default
 <section class="section resources-section" id="resources" aria-labelledby="resources-title">
   <div class="container"><div class="section-heading"><div><span class="eyebrow">Before you begin</span><h2 id="resources-title">Come prepared. Stay curious.</h2></div><p>The background knowledge and reading<br>to support your project.</p></div>
     <div class="resources-grid">
-      <div class="prerequisites"><h3 id="pre-requirements">Useful foundations.</h3><ul>{% for requirement in course.prerequisites %}<li>{% include icon.html name='check' %}{{ requirement | escape }}</li>{% endfor %}</ul><p class="course-code">Course {{ course.code }} · 2nd year<br>Data Science and Engineering</p></div>
+      <div class="prerequisites"><h3 id="pre-requirements">Useful foundations.</h3><ul>{% for requirement in course.prerequisites %}<li>{% include icon.html name='check' %}{{ requirement | escape }}</li>{% endfor %}</ul><p class="course-code">{% if course.codes.size > 1 %}Course codes {{ course.codes | join: ' · ' | escape }}{% else %}Course {{ course.code | escape }}{% endif %} · 2nd year<br>Data Science and Engineering</p></div>
       <div class="reading-panel">
         <h3 id="reading-materials">Keep learning.</h3>
         {% if has_papers %}
