@@ -4,6 +4,10 @@
     "academic_year": "2026–2027",
     "path": "/",
     "code": "02TXXWS",
+    "codes": [
+      "02TXXWS",
+      "02TXXSM"
+    ],
     "current": true,
     "outcomes": [
       "Turn user needs into innovative AI applications for digital and physical environments.",
