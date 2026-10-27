@@ -1,5 +1,5 @@
 <article class="project-card">
-  <div class="project-meta"><span>{{ include.project.category | escape }}</span><span>{{ include.project.edition }}</span></div>
+  <div class="project-meta"><span>{% if include.project.code %}{{ include.project.code | escape }} · {% endif %}{{ include.project.category | escape }}</span><span>{{ include.project.edition }}</span></div>
   <h3>{{ include.project.title | escape }}</h3>
   <p>{{ include.project.description | escape }}</p>
   <div class="project-links">
