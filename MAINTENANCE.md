@@ -29,7 +29,13 @@ The 2025–2026 and 2026–2027 mindsets use Design → Develop → Communicate,
 
 The 2026–2027 syllabus contains 16 topics totalling 30 lecture hours and three laboratory activity types totalling 50 hours. Topic order and durations follow the supplied syllabus. Individual laboratory durations are unspecified. Lecture links remain empty until this edition's slides arrive; keep new files under `2026/` and attach each one to its corresponding topic. Add file codes when the supplied filenames establish them.
 
-The 2026–2027 `value_proposition` stores the overview heading as `lead` and `focus`: “Learn by building innovative AI solutions.” Its `intro`, `description`, learning outcomes and overview develop the innovation focus. The `showcase_edition: "2025"` setting shows existing 2025–2026 projects with their original edition labels until the new edition has its own projects.
+The 2026–2027 `value_proposition` stores the overview heading as `lead` and `focus`: “Learn by building innovative AI solutions.” Its `intro`, `description`, learning outcomes and overview develop the innovation focus. Its own project list displays the 15 current proposals, in P1–P15 order, with repository and PDF brief links. The 2025–2026 projects remain in their own archive.
+
+## Add or rename a project repository
+
+Store each project in its edition's `projects` array in `_data/courses.json`, following the project number in the repository name. Current proposals use an optional `code` such as `P1`, a readable title, category, short description based on the project brief, the academic year and links labelled `Repository` and `Project brief`. Use the shared project card so current and archived editions keep the same style. The current edition's project section identifies these as proposals for students' team projects.
+
+When a repository moves to another edition or is renamed, update its canonical link and place its card in the matching archive. The renamed `2025-P6-ENT-icipate` repository appears between P5 and P7 in the 2025–2026 project list. A course's `showcase_edition` fallback is only needed while it has no projects of its own.
 
 ## Add a lecture download
 
